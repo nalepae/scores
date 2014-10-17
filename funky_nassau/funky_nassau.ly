@@ -42,32 +42,40 @@ baritoneSax = \relative c'' {
   \global
   \transposition es,
   % Drum Intro 
-  r1 | r | r | r | r | r | r | r2 r4 c |
+  r1 | r | r | r | r | r | r | r2 r4 c, \bar "||"
   
   % Bass Intro
   f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r ees e f |
-  f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r2 r4 c |
+  f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r2 r4 c \bar "||"
   
   % Sax Intro
   f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r ees e f |
-  f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r f r c |
+  f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r f r f \bar "||"
   
   % Brass Intro
   f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r ees e f |
-  f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r f r c |
+  f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r f r f \bar "||"
   
   % All Intro
   f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r ees e f |
-  f4 f8 f4 ees8 f4 | g r r aes,( | aes1) (| aes2.) bes4 ( | bes1) (| bes2.) r4 |
+  f4 f8 f4 ees8 f4 | g r r aes,( | aes1) (| aes2.) bes4 ( | bes1) (| bes2.) r4 \bar "||"
   
   % A
-  f4. ees8 f4 aes | bes4. aes8 bes4 aes | f4. ees8 f4 aes | c2 r2 |
+  f'4. ees8 f4 aes | bes4. aes8 bes4 aes | f4. ees8 f4 aes | c2 r2 |
   f,4. ees8 f4 aes | bes4. aes8 bes4 aes | f4. ees8 f4 ees | c2 r2 |
   
   f4. ees8 f4 aes | bes4. aes8 bes4 aes | f4. ees8 f4 aes | c2 r2 |
-  f,4. ees8 f4 aes | bes4. aes8 bes4 aes | f4. ees8 f4 ees | c2 r2 |
+  f,4. ees8 f4 aes | bes4. aes8 bes4 aes | f4. ees8 f4 ees | c2 r2 \bar "||"
 
   % B
+  bes'4. aes8 bes4 aes4 | bes2. aes4 | bes4. aes8 bes4 aes4 | bes2. bes4 |
+  f4. ees8 f4 aes | bes4. aes8 bes4 aes | f4. ees8 f4 ees | c2 r2 |
+  
+  bes'4. bes bes4 | aes8 f4 f r8 r4 | r1 | f4. f4. aes4 \bar "||"
+  
+  % C
+  f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r ees e f |
+  f4 f8 f4 ees8 f4 | g ees e f | f4 f8 f4 ees8 f4 | r1  \bar "||"
   
 }
 
