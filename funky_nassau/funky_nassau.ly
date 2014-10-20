@@ -21,7 +21,25 @@ trumpetBb = \relative c'' {
 altoSax = \relative c'' {
   \global
   \transposition es
-  % Music follows here.
+  
+  % Drum Intro
+  r1 | r | r | r | r | r | r | r \bar "||"
+
+  % Bass Intro
+  r | r | r | r | r | r | r | r2 r4 c \bar "||"
+
+  % Sax Intro
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
+  f4 f8 f4 ees8 f4 | r2 r4 c | f4 f8 f4 ees8 f4 | r1 \bar "||"
+  
+  % Brass Intro
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | r ees r f \bar "||"
+  
+  % All Intro
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
+  f4 f8 f4 ees8 f4 | g r r2 | r4 c, c c | c c c r |
+  r d d d | d d r2 \bar "||"
 
 }
 
