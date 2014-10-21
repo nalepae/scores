@@ -18,15 +18,20 @@ trumpetBb = \relative c'' {
 
 }
 
+altoSaxSoloOne = { r4 f8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 | }
+altoSaxSoloSuite = { r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 | }
+
 altoSax = \relative c'' {
   \global
   \transposition es
   
   % Drum Intro
-  r1 | r | r | r | r | r | r | r \bar "||"
+  r1 | r | r | r |
+  r | r | r | r \bar "||"
 
   % Bass Intro
-  r | r | r | r | r | r | r | r2 r4 c \bar "||"
+  r | r | r | r |
+  r | r | r | r2 r4 c \bar "||"
 
   % Sax Intro
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
@@ -44,7 +49,7 @@ altoSax = \relative c'' {
   % A
   f4. ees c4 | bes4. aes r4 | r1 | f8 f4 f8 r4 c' |
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
-  c2. ees4 | f4. f f4 | aes8 f r4 r4 r8 ees | f8 ees4 f8 r4 c |
+  ees2. ees4 | f4. f f4 | aes8 f r4 r4 r8 ees | f8 ees4 f8 r4 c |
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
   
   % B
@@ -52,9 +57,41 @@ altoSax = \relative c'' {
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
   bes'4. bes bes4 | aes8 f4 f4 r8 r4 | r1 | f4. f aes4 |
   
-  %C
+  % C
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
-  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | r4 f aes c | 
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | r4 f aes c |
+  
+  % D
+  f1 (|f) (|f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
+  aes4 f aes8 g aes4 | r2 r4 aes | aes8 g aes4 aes8 g aes4 | r4 f aes c |
+  f1 (|f) (|f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
+  aes4 f aes8 g aes4 | r2 r4 aes | aes8 g aes4 aes8 g aes4 | r1 |
+  r4 f8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f4 e f ges |
+  
+  % E
+  g r r2 | r1 | r | r4 aes g ges |
+  r1 | r | r | r4 e f fes |
+  r1 | r |  r | r4 aes g ges |
+  r1 | r1 | r1 | r1 |
+  g4-. r r a-. | r g4-. r2 | r1 | r4 aes g ges |
+  f4-. r r g-. | r f4-. r2 | r1 | r |
+  g4-. r g8 aes4 a8 (|a4) g r2 | r1 | r4 aes g ges |
+  f4-. r f8 f4 aes8 | \times 2/3 { aes2 g ees} | f4 r r2 | r1 |
+  g4-. r g2 (|g1) | r1 | r4 aes g ges |
+  f4-. r f2 (|f1) | r1 | r |
+  g4-. r g f | g f r g (| g1) | r4 aes g ges |
+  f4-. r f ees | f ees r f | r ees'8 c ees4  c8 bes | c4 bes8 aes bes aes f ees |
+  f4-. r f ees | f ees r2 \bar "||"
+  
+  % Chorus
+  \altoSaxSoloOne \altoSaxSoloSuite \altoSaxSoloSuite \altoSaxSoloSuite
+  \altoSaxSoloSuite \altoSaxSoloSuite \altoSaxSoloSuite \altoSaxSoloSuite
+  
+  % End
+  f'4 r ees f | r ees e f | r ees f aes | bes4 r aes2 (| aes1) | c4-^ r r2 \bar "|."
 }
 
 tenorSax = \relative c'' {
