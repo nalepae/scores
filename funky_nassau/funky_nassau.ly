@@ -30,7 +30,7 @@ altoSax = \relative c'' {
 
   % Sax Intro
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
-  f4 f8 f4 ees8 f4 | r2 r4 c | f4 f8 f4 ees8 f4 | r1 \bar "||"
+  f4 f8 f4 ees8 f4 | r2 r4 c | f4 f8 f4 ees8 f4 | r2 r4 c \bar "||"
   
   % Brass Intro
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
@@ -40,7 +40,21 @@ altoSax = \relative c'' {
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
   f4 f8 f4 ees8 f4 | g r r2 | r4 c, c c | c c c r |
   r d d d | d d r2 \bar "||"
-
+  
+  % A
+  f4. ees c4 | bes4. aes r4 | r1 | f8 f4 f8 r4 c' |
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
+  c2. ees4 | f4. f f4 | aes8 f r4 r4 r8 ees | f8 ees4 f8 r4 c |
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
+  
+  % B
+  bes'4. bes bes4 | aes8 f4 f4 r8 r4 | r1 | f4. f aes4 |
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
+  bes'4. bes bes4 | aes8 f4 f4 r8 r4 | r1 | f4. f aes4 |
+  
+  %C
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | r4 f aes c | 
 }
 
 tenorSax = \relative c'' {
