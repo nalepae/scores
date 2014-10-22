@@ -14,7 +14,28 @@ global = {
 trumpetBb = \relative c'' {
   \global
   \transposition bes
-  % Music follows here.
+  
+  % Drum Intro
+  r1 | r | r | r |
+  r | r | r | r \bar "||"
+
+  % Bass Intro
+  r1 | r | r | r |
+  r | r | r | r \bar "||"
+
+  % Sax Intro
+  r1 | r | r | r |
+  r | r | r | r \bar "||"
+
+  % Brass Intro
+  r1 | r2 f4-^ r | r1 | r4 ees-^ r f-^ |
+  r1 | r4 f4-^ r2 | f4 f8 f4 ees8 f4 | r ees r f \bar "||"
+  
+  % All Intro
+  f4 f8 f4 ees8 f4 | r f r2 | f4 f8 f4 ees8 f4 | r f r2 |
+  f4 f8 f4 ees8 f4 | g r4 r2 | r4 aes aes aes | aes aes aes r |
+  r4 bes bes bes | bes bes r2 \bar "||"
+  
 
 }
 
