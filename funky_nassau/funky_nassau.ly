@@ -125,7 +125,7 @@ altoSax = \relative c'' {
   g4-. r r a-. | r g4-. r2 | r1 | r4 aes g ges |
   f4-. r r g-. | r f4-. r2 | r1 | r |
   g4-. r g8 aes4 a8 (|a4) g r2 | r1 | r4 aes g ges |
-  f4-. r f8 f4 aes8 | \times 2/3 { aes2 g ees} | f4 r r2 | r1 |
+  f4-. r f8 f4 aes8 (| \times 2/3 { aes2) g ees} | f4 r r2 | r1 |
   g4-. r g2 (|g1) | r1 | r4 aes g ges |
   f4-. r f2 (|f1) | r1 | r |
   g4-. r g f | g f r g (| g1) | r4 aes g ges |
@@ -218,7 +218,7 @@ baritoneSax = \relative c'' {
   g4-. r r a-. | r g4-. r2 | r1 | r4 aes g ges |
   f4-. r r g-. | r f4-. r2 | r1 | r |
   g4-. r g8 aes4 a8 (|a4) g r2 | r1 | r4 aes g ges |
-  f4-. r f8 f4 aes8 | \times 2/3 { aes2 g ees} | f4 r r2 | r1 |
+  f4-. r f8 f4 aes8 (| \times 2/3 { aes2) g ees} | f4 r r2 | r1 |
   g4-. r g2 (|g1) | r1 | r4 aes g ges |
   f4-. r f2 (|f1) | r1 | r |
   g4-. r g f | g f r g (| g1) | r4 aes g ges |
