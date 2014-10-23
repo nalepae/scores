@@ -33,8 +33,33 @@ trumpetBb = \relative c'' {
   
   % All Intro
   f4 f8 f4 ees8 f4 | r f r2 | f4 f8 f4 ees8 f4 | r f r2 |
-  f4 f8 f4 ees8 f4 | g r4 r2 | r4 aes aes aes | aes aes aes r |
+  f4 f8 f4 ees8 f4 | g r4 r2 | r4 aes, aes aes | aes aes aes r |
   r4 bes bes bes | bes bes r2 \bar "||"
+  
+  % A
+  c4. bes aes4 | bes8 f4 f4. r4 | r1 | f8 f4 f4 c'8 f4
+  (| f1) (| f2) r2 | r1 | r |
+  c2. ees,4 | f4. f f4 | aes8 f r4 r4 r8 ees | f ees4 f4 aes bes8
+  (| bes1) (| bes2) r2 | r1 | r \bar "||"
+  
+  % B
+  bes4. bes bes4 | aes8 f4 f4 r8 r4 | r1 | f4. f aes4 |
+  c1 (| c) (| c) | r |
+  | r | r | r | f4. f c'4 \bar "||"
+  
+  % C
+  f, f8 f4 ees8 f4 | g r r c, | f f8 f4 ees8 f4 | ees c r c |
+  f f8 f4 ees8 f4 | g r r c, | f f8 f4 ees8 f4 | r4 f, aes c \bar "||"
+  
+  % D
+  f1 (| f) (| f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
+  aes4 f r2 | r1 | r | r4 f aes c |
+  f1 (| f) (| f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
+  aes4 f r2 | r1 | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f4 e f ges \bar "||"
   
 
 }
