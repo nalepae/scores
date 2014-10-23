@@ -61,7 +61,34 @@ trumpetBb = \relative c'' {
   r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
   r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f4 e f ges \bar "||"
   
-
+  % E
+  g4 r r2 | r1 | r | r4 aes g ges |
+  r1 | r | r | r4 e f ges |
+  r1 | r | r | r4 aes g ges |
+  r1 | r | r | r |
+  g4 r r aes | r g r2 | r1 | r |
+  f4 r r g | r f r2 | r1 | r |
+  g4 r g8 aes4 aes8 (| aes4) g r2 | r1 | r |
+  f4 r f8 f4 aes8 (| \times 2/3 { aes2) g ees} | f4 r r2 | r1 |
+  g4-. r g2 (|g1) | r1 | r |
+  f4-. r f2 (|f1) | r1 | r |
+  g4-. r g f | g f r g (| g1) | r1 |
+  f4-. r f ees | f ees r f | r ees8 c ees4  c8 bes | c4 bes8 aes bes aes f ees |
+  f'4-. r f ees | f ees r2 \bar "||"
+  
+  % Chorus
+  r1 | r | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r4 f8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 | 
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 \bar "||"
+  
+  % End
+  f'4 r ees f | r ees e f | r ees f aes | bes4 r aes2 (| aes1) | c4-^ r r2 \bar "|."
+  
 }
 
 altoSaxSoloOne = { r4 f8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 | }
