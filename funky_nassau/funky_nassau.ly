@@ -50,17 +50,17 @@ trumpetBb = \relative c'' {
   % C
   \mark "C"
   f, f8 f4 ees8 f4 | g r r c, | f f8 f4 ees8 f4 | ees c r c |
-  f f8 f4 ees8 f4 | g r r c, | f f8 f4 ees8 f4 | r4 f, aes c \bar "||"
+  f f8 f4 ees8 f4 | g r r c, | f f8 f4 ees8 f4 | r1 \bar "||"
 
   % D
   \mark "D"
-  f1 (| f) (| f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
-  aes4 f r2 | r1 | r | r4 f aes c |
-  f1 (| f) (| f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
-  aes4 f r2 | r1 | r | r |
+  r1 | r | r | r |
+  r | f4 ees8 f r2 | r1 | f4 ees8 f r2 |
+  r1 | r | r | r |
+  r | f4 ees8 f r2 | r1 | f4 ees8 f r2 |
+  r1 | r | r | r |
   r | r | r | r |
-  r | r | r | r |
-  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
   r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f4 e f ges \bar "||"
 
   % E
@@ -132,7 +132,7 @@ altoSax = \relative c'' {
   \mark "A"
   f4. ees c4 | bes4. aes r4 | r1 | f8 f4 f8 r4 c' |
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
-  ees2. ees4 | f4. f f4 | aes8 f r4 r4 r8 ees | f8 ees4 f8 r4 c |
+  aes'2. ees4 | f4. f f4 | aes8 f r4 r4 r8 ees | f8 ees4 f8 r4 c |
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 \bar "||"
 
   % B
