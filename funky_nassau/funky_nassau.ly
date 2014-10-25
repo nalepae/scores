@@ -30,9 +30,9 @@ trumpetBb = \relative c'' {
 
   % All Intro
   \mark "All Intro"
-  f4 f8 f4 ees8 f4 | r f r2 | f4 f8 f4 ees8 f4 | r f r2 |
-  f4 f8 f4 ees8 f4 | g r4 r2 | r4 aes, aes aes | aes aes aes r |
-  r4 bes bes bes | bes bes r2 \bar "||"
+  f4 f8 f4 ees8 f4 | r2 f4 r | f4 f8 f4 ees8 f4 | r2 f4 r |
+  f4 f8 f4 ees8 f4 | g r4 r2 | r4 c, c c | c c c r |
+  r4 d d d | d d r2 \bar "||"
 
   % A
   \mark "A"
@@ -125,8 +125,8 @@ altoSax = \relative c'' {
   % All Intro
   \mark "All Intro"
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
-  f4 f8 f4 ees8 f4 | g r r2 | r4 c, c c | c c c r |
-  r d d d | d d r2 \bar "||"
+  f4 f8 f4 ees8 f4 | g r r2 | r4 aes, aes aes | aes aes aes r |
+  r bes bes bes | bes bes r2 \bar "||"
 
   % A
   \mark "A"
