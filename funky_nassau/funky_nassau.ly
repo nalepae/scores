@@ -191,7 +191,31 @@ tenorSax = \relative c'' {
 
 trombone = \relative c {
   \global
-  % Music follows here.
+  % Drum Intro
+  \mark "Drum Intro"
+  r1 | r | r | r |
+  r | r | r | r \bar "||"
+
+  % Bass Intro
+  \mark "Bass Intro"
+  r1 | r | r | r |
+  r | r | r | r \bar "||"
+
+  % Sax Intro
+  \mark "Sax Intro"
+  r1 | r | r | r |
+  r | r | r | r \bar "||"
+
+  % Brass Intro
+  \mark "Brass Intro"
+  r1 | r2 aes'4-^ r | r1 | r4 g-^ r aes-^ |
+  r1 | r4 aes4-^ r2 | aes4 aes8 aes4 g8 aes4 | r g r aes \bar "||"
+
+  % All Intro
+  \mark "All Intro"
+  aes4 aes8 aes4 g8 aes4 | r2 aes4 r | aes4 aes8 aes4 g8 aes4 | r2 aes4 r |
+  aes4 aes8 aes4 g8 aes4 | bes r4 r2 | r4 ees, ees ees | ees ees ees r |
+  r4 f f f | f f r2 \bar "||"
 
 }
 
