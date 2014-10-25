@@ -69,7 +69,7 @@ trumpetBb = \relative c'' {
   r1 | r | r | r4 e f ges |
   r1 | r | r | r4 aes g ges |
   r1 | r | r | r |
-  g4 r r aes | r g r2 | r1 | r |
+  g4 r r a | r g r2 | r1 | r |
   f4 r r g | r f r2 | r1 | r |
   g4 r g8 aes4 a8 (| a4) g r2 | r1 | r |
   f4 r f8 f4 aes8 (| \times 2/3 { aes2) g ees} | f4 r r2 | r1 |
@@ -110,7 +110,7 @@ altoSax = \relative c'' {
   % Bass Intro
   \mark "Bass Intro"
   r | r | r | r |
-  r | r | r | r2 r4 c \bar "||"
+  r | r | r | r2 r4 c, \bar "||"
 
   % Sax Intro
   \mark "Sax Intro"
@@ -130,7 +130,7 @@ altoSax = \relative c'' {
 
   % A
   \mark "A"
-  f4. ees c4 | bes4. aes r4 | r1 | f8 f4 f8 r4 c' |
+  f'4. ees c4 | bes4. aes r4 | r1 | f'8 f4 f8 r4 c |
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
   aes'2. ees4 | f4. f f4 | aes8 f r4 r4 r8 ees | f8 ees4 f8 r4 c |
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 \bar "||"
@@ -160,7 +160,7 @@ altoSax = \relative c'' {
   % E
   \mark "E"
   g r r2 | r1 | r | r4 aes g ges |
-  r1 | r | r | r4 e f fes |
+  r1 | r | r | r4 e f ges |
   r1 | r |  r | r4 aes g ges |
   r1 | r1 | r1 | r1 |
   g4-. r r a-. | r g4-. r2 | r1 | r4 aes g ges |
@@ -276,13 +276,13 @@ trombone = \relative c {
 
   % End
   \mark "End"
-  aes'4 r g aes | r g g aes | r g aes c | d r bes2 (| bes1) | c4-^ r r2 \bar "|."
+  aes'4 r g aes | r g g aes | r g aes c | d r b2 (| b1) | c4-^ r r2 \bar "|."
 }
 
 baritonSaxPartD = {f2 f'4 f4 | c4. c f,4 | r f4 f' f | c bes8 c4 bes8 aes4 |}
 baritonSaxSolo = \baritonSaxPartD
 
-baritoneSax = \relative c'' {
+baritoneSax = \relative c {
   \global
 
   % Drum Intro
@@ -338,7 +338,7 @@ baritoneSax = \relative c'' {
   % E
   \mark "E"
   g r r2 | r1 | r | r4 aes g ges |
-  r1 | r | r | r4 e f fes |
+  r1 | r | r | r4 e f ges |
   r1 | r |  r | r4 aes g ges |
   r1 | r1 | r1 | r1 |
   g4-. r r a-. | r g4-. r2 | r1 | r4 aes g ges |
@@ -363,23 +363,28 @@ baritoneSax = \relative c'' {
 
 trumpetBbPart = \new Staff \with {
   instrumentName = "Trumpet in Bb"
+  midiInstrument = "trumpet"
 } \trumpetBb
 
 altoSaxPart = \new Staff \with {
   instrumentName = "Alto Sax"
-} \altoSax
+  midiInstrument = "alto sax"
+} { \clef "treble_8" \altoSax }
 
 tenorSaxPart = \new Staff \with {
   instrumentName = "Tenor Sax"
+  midiInstrument = "tenor sax"
 } \tenorSax
 
 trombonePart = \new Staff \with {
   instrumentName = "Trombone"
+  midiInstrument = "trombone"
 } { \clef bass \trombone }
 
 baritoneSaxPart = \new Staff \with {
   instrumentName = "Baritone Sax"
-} \baritoneSax
+  midiInstrument = "baritone sax"
+} { \clef "treble_16" \baritoneSax }
 
 \book {
   \paper {
@@ -400,6 +405,13 @@ baritoneSaxPart = \new Staff \with {
       \trombonePart
       \baritoneSaxPart
     >>
+    \layout { }
+    \midi {
+      \context {
+        \Score
+        tempoWholesPerMinute = #(ly:make-moment 240 4)
+      }
+    }
   }
 
 %{
