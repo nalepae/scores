@@ -217,6 +217,66 @@ trombone = \relative c {
   aes4 aes8 aes4 g8 aes4 | bes r4 r2 | r4 ees, ees ees | ees ees ees r |
   r4 f f f | f f r2 \bar "||"
 
+  % A
+  \mark "A"
+  c'4. bes aes4 | bes8 f4 f4. r4 | r1 | f8 f4 f4 bes8 aes4
+  (| aes1) (| aes2) r2 | r1 | r |
+  ees2. ees4 | f4. f f4 | aes8 f r4 r4 r8 ees | f ees4 f4 aes f8
+  (| f1) (| f2) r2 | r1 | r \bar "||"
+
+  % B
+  \mark "B"
+  d4. d d4 | f8 d4 d r8 r4 | r1 | r |
+  c (| c) (| c) | r |
+  r | r | r | aes'4. aes c4 \bar "||"
+
+  % C
+  \mark "C"
+  aes4 aes8 aes4 g8 aes4 | bes4 r4 r g | aes4 aes8 aes4 g8 aes4 | g ees r ees |
+  aes4 aes8 aes4 g8 aes4 | r2 r4 g | aes aes8 aes4 g8 aes4 | r4 f aes c \bar "||"
+
+  % D
+  \mark "D"
+  f1 (| f) (| f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
+  aes4 f r2 | r1 | r | r4 f aes c |
+  f1 (| f) (| f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
+  aes4 f r2 | r1 | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r4 aes8 g aes g aes g | aes c4 aes g r8 | r4 aes8 g aes g aes g | aes g4 ees c r8 |
+  r4 aes'8 g aes g aes g | aes c4 aes g r8 | r4 aes8 g aes g aes g | aes4 e f ges \bar "||"
+
+  % E
+  \mark "E"
+  g4 r r2 | r1 | r | r4 aes g ges |
+  r1 | r | r | r4 e f ges |
+  r1 | r | r | r4 aes g ges |
+  r1 | r | r | r |
+  bes4 r r c | r bes r2 | r1 | r |
+  aes4 r r bes | r aes r2 | r1 | r |
+  bes4 r bes8 b4 c8 (| c4) bes r2 | r1 | r |
+  c4 r c8 c4 ees8 (| \times 2/3 { ees2) d bes} | c4 r r2 | r1 |
+
+  f,4-. r f2 (|f1) | r1 | r |
+  ees4-. r ees2 (|ees1) | r1 | r |
+  bes4-. r bes aes | bes aes r bes (| bes1) | r1 |
+  aes4-. r aes g | aes g r aes | r ees'8 c ees4  c8 bes | c4 bes8 aes bes aes f ees |
+  aes4-. r aes g | aes g r2 \bar "||"
+
+  % Chorus
+  \mark "Chorus"
+  r1 | r | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r | r | r | r |
+  r4 aes'8 g aes g aes g | aes c4 aes g r8 | r4 aes8 g aes g aes g | aes g4 ees c r8 |
+  r4 aes'8 g aes g aes g | aes c4 aes g r8 | r4 aes8 g aes g aes g | aes g4 ees c r8  \bar "||"
+
+  % End
+  \mark "End"
+  aes'4 r g aes | r g g aes | r g aes c | d r bes2 (| bes1) | c4-^ r r2 \bar "|."
 }
 
 baritonSaxPartD = {f2 f'4 f4 | c4. c f,4 | r f4 f' f | c bes8 c4 bes8 aes4 |}
