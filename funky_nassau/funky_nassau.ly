@@ -38,7 +38,7 @@ trumpetBb = \relative c'' {
   \mark "A"
   c4. bes aes4 | bes8 f4 f4. r4 | r1 | f8 f4 f4 bes8 f'4
   (| f1) (| f2) r2 | r1 | r |
-  c2. ees,4 | f4. f f4 | aes8 f r4 r4 r8 ees | f ees4 f4 aes bes8
+  c2. ees,4 | f4. f f4 | aes8 f r4 r4 r8 ees | f ees4 f4 aes8 bes4
   (| bes1) (| bes2) r2 | r1 | r \bar "||"
 
   % B
@@ -49,7 +49,7 @@ trumpetBb = \relative c'' {
 
   % C
   \mark "C"
-  f, f8 f4 ees8 f4 | g r r c, | f f8 f4 ees8 f4 | ees c r c |
+  f f8 f4 ees8 f4 | g r r c, | f f8 f4 ees8 f4 | ees c r c |
   f f8 f4 ees8 f4 | g r r c, | f f8 f4 ees8 f4 | r1 \bar "||"
 
   % D
@@ -144,7 +144,7 @@ altoSax = \relative c'' {
   % C
   \mark "C"
   f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
-  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | r4 f aes c \bar "||"
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | r4 f, aes c \bar "||"
 
   % D
   \mark "D"
@@ -152,7 +152,7 @@ altoSax = \relative c'' {
   aes4 f aes8 g aes4 | r2 r4 aes | aes8 g aes4 aes8 g aes4 | r4 f aes c |
   f1 (|f) (|f4) ees8 c ees4 c8 bes | c4 bes8 aes bes aes f ees |
   aes4 f aes8 g aes4 | r2 r4 aes | aes8 g aes4 aes8 g aes4 | r1 |
-  r4 f8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
   r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
   r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
   r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f4 e f ges \bar "||"
@@ -276,7 +276,7 @@ trombone = \relative c {
 
   % End
   \mark "End"
-  aes'4 r g aes | r g g aes | r g aes c | d r b2 (| b1) | c4-^ r r2 \bar "|."
+  aes'4 r g aes | r g g aes | r g aes c | d r bes2 (| bes1) | c4-^ r r2 \bar "|."
 }
 
 baritonSaxPartD = {f2 f'4 f4 | c4. c f,4 | r f4 f' f | c bes8 c4 bes8 aes4 |}
