@@ -229,8 +229,8 @@ altoSaxOne = \relative c'' {
   % B
   \mark "B"
   d4. d d4 | f8 d4 d4 r8 r4 | r1 | f4. f aes4 |
-  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 \bar "||"
-  d4. d d4 | f8 d4 d4 r8 r4 | r1 | f4. f aes4 |
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
+  d4. d d4 | f8 d4 d4 r8 r4 | r1 | f4. f aes4 \bar "||"
 
   % C
   \mark "C"
@@ -313,8 +313,8 @@ altoSaxTwo = \relative c'' {
   % B
   \mark "B"
   bes'4. bes bes4 | aes8 f4 f4 r8 r4 | r1 | f4. f aes4 |
-  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 \bar "||"
-  bes'4. bes bes4 | aes8 f4 f4 r8 r4 | r1 | f4. f aes4 |
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
+  bes'4. bes bes4 | aes8 f4 f4 r8 r4 | r1 | f4. f aes4 \bar "||"
 
   % C
   \mark "C"
@@ -433,6 +433,7 @@ tenorSax = \relative c' {
   f4-. r f ees | f ees r2 \bar "||"
 
   % Chorus
+  \mark "Chorus"
   r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
   r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
   r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
