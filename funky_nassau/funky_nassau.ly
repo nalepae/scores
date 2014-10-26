@@ -591,7 +591,7 @@ baritoneSax = \relative c {
   \mark "D"
   \baritonSaxPartD \baritonSaxPartD \baritonSaxPartD \baritonSaxPartD
   \baritonSaxPartD \baritonSaxPartD \baritonSaxPartD
-   f2 f'4 f4 | c4. c f,4 | r f4 f' f | c e, f fis \bar "||"
+  f2 f'4 f4 | c4. c f,4 | r f4 f' f | c e, f fis \bar "||"
 
   % E
   \mark "E"
@@ -663,7 +663,7 @@ baritoneSaxPart = \new Staff \with {
     \header {
       title = "Funky Nassau"
       composer = "Magicaboola Brass Band"
-      arranger = "Manu"
+      arranger = "Manu - v1.0"
     }
 
     <<
@@ -684,19 +684,96 @@ baritoneSaxPart = \new Staff \with {
     }
   }
 
-%{
   \pageBreak
 
   \score {
     \header {
       title = "Funky Nassau"
       composer = "Magicaboola Brass Band"
-      arranger = "Manu"
+      arranger = "Manu - v1.0"
     }
     <<
-      \transpose c d \trumpetBbPart
+      \transpose c d \trumpetBbOnePart
     >>
   }
-%}
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Funky Nassau"
+      composer = "Magicaboola Brass Band"
+      arranger = "Manu - v1.0"
+    }
+    <<
+      \transpose c d \trumpetBbTwoPart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Funky Nassau"
+      composer = "Magicaboola Brass Band"
+      arranger = "Manu - v1.0"
+    }
+    <<
+      \transpose c a, \altoSaxOnePart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Funky Nassau"
+      composer = "Magicaboola Brass Band"
+      arranger = "Manu - v1.0"
+    }
+    <<
+      \transpose c a, \altoSaxTwoPart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Funky Nassau"
+      composer = "Magicaboola Brass Band"
+      arranger = "Manu - v1.0"
+    }
+    <<
+      \transpose c d \tenorSaxPart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Funky Nassau"
+      composer = "Magicaboola Brass Band"
+      arranger = "Manu - v1.0"
+    }
+    <<
+      \trombonePart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Funky Nassau"
+      composer = "Magicaboola Brass Band"
+      arranger = "Manu - v1.0"
+    }
+    <<
+      \transpose c a, \baritoneSaxPart
+    >>
+  }
+
 }
 
