@@ -92,7 +92,7 @@ trumpetBbOne = \relative c'' {
 
   % End
   \mark "End"
-  f'4 r ees f | r ees e f | r ees f aes | bes4 r aes2 (| aes1) | c4-^ r r2 \bar "|."
+  f'4 r ees f | r ees e f | r ees f aes | bes4 r aes2 (| aes1) | ees'4-^ r r2 \bar "|."
 
 }
 
@@ -358,10 +358,93 @@ altoSaxTwo = \relative c'' {
   f'4 r ees f | r ees e f | r ees f aes | bes4 r aes2 (| aes1) | c4-^ r r2 \bar "|."
 }
 
-tenorSax = \relative c'' {
+tenorSax = \relative c' {
   \global
-  % Music follows here.
 
+  % Drum Intro
+  \mark "Drum Intro"
+  r1 | r | r | r |
+  r | r | r | r \bar "||"
+
+  % Bass Intro
+  \mark "Bass Intro"
+  r | r | r | r |
+  r | r | r | r2 r4 c, \bar "||"
+
+  % Sax Intro
+  \mark "Sax Intro"
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
+  f4 f8 f4 ees8 f4 | r2 r4 c | f4 f8 f4 ees8 f4 | r2 r4 c \bar "||"
+
+  % Brass Intro
+  \mark "Brass Intro"
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r c |
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | r ees r f \bar "||"
+
+  % All Intro
+  \mark "All Intro"
+  f4 f8 f4 ees8 f4 | g r r c, | f4 f8 f4 ees8 f4 | ees\trill c r2 |
+  f4 f8 f4 ees8 f4 | g r r2 | r4 aes, aes aes | aes aes aes r |
+  r bes bes bes | bes bes r2 \bar "||"
+
+  % A
+  \mark "A"
+  f'4. ees c4 | bes4. aes r4 | r1 | f'8 f4 f8 r4 aes |
+  c4 c8 c4 bes8 c4 | ees r r aes, | c4 c8 c4 bes8 c4 | bes\trill aes r2 |
+  aes2. ees4 | f4. f f4 | aes8 f r4 r4 r8 ees | f8 ees4 f8 r4 aes |
+  c4 c8 c4 bes8 c4 | ees r r aes, | c4 c8 c4 bes8 c4 | bes\trill aes r2 \bar "||"
+
+  % B
+  \mark "B"
+  d,4. d d4 | f8 d4 d4 r8 r4 | r1 | f4. f aes4 |
+  c4 c8 c4 bes8 c4 | ees r r aes, | c4 c8 c4 bes8 c4 | bes\trill aes r2 |
+  d,4. d d4 | f8 d4 d4 r8 r4 | r1 | f4. f aes4 \bar "||"
+
+  % C
+  \mark "C"
+  c4 c8 c4 bes8 c4 | ees r r aes, | c4 c8 c4 bes8 c4 | bes\trill aes r4 aes |
+  c4 c8 c4 bes8 c4 | ees r r aes, | c4 c8 c4 bes8 c4 | r1 \bar "||"
+
+  % D
+  \mark "D"
+  r4 f,8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f ees4 c bes r8 |
+  r4 f'8 ees f ees f ees | f aes4 f ees r8 | r4 f8 ees f ees f ees | f4 e f ges \bar "||"
+
+  % E
+  \mark "E"
+  g r r2 | r1 | r | r4 aes g ges |
+  r1 | r | r | r4 e f ges |
+  r1 | r |  r | r4 aes g ges |
+  r1 | r1 | r1 | r1 |
+  g4-. r r a-. | r g4-. r2 | r1 | r4 aes g ges |
+  f4-. r r g-. | r f4-. r2 | r1 | r |
+  g4-. r g8 aes4 a8 (|a4) g r2 | r1 | r4 aes g ges |
+  f4-. r f8 f4 aes8 (| \times 2/3 { aes2) g ees} | f4 r r2 | r1 |
+  g4-. r g2 (|g1) | r1 | r4 aes g ges |
+  f4-. r f2 (|f1) | r1 | r |
+  g4-. r g f | g f r g (| g1) | r4 aes g ges |
+  f4-. r f ees | f ees r f | r ees'8 c ees4  c8 bes | c4 bes8 aes bes aes f ees |
+  f4-. r f ees | f ees r2 \bar "||"
+
+  % Chorus
+  r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
+  r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
+  r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
+  r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
+  r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
+  r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
+  r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 |
+  r4 c'8 bes c bes c bes | c ees4 c bes r8 | r4 c8 bes c bes c bes | c bes4 aes f r8 \bar "||"
+
+  % End
+  \mark "End"
+  c4 r bes c | r bes b c | r bes c ees | f4 r d2 (| d1) | f4-^ r r2 \bar "|."
 }
 
 trombone = \relative c {
@@ -451,7 +534,7 @@ trombone = \relative c {
 
   % End
   \mark "End"
-  aes'4 r g aes | r g g aes | r g aes c | d r bes2 (| bes1) | c4-^ r r2 \bar "|."
+  aes'4 r g aes | r g g aes | r g aes c | d r b2 (| b1) | c4-^ r r2 \bar "|."
 }
 
 baritonSaxPartD = {f2 f'4 f4 | c4. c f,4 | r f4 f' f | c bes8 c4 bes8 aes4 |}
@@ -559,7 +642,7 @@ altoSaxTwoPart = \new Staff \with {
 tenorSaxPart = \new Staff \with {
   instrumentName = "Tenor Sax"
   midiInstrument = "tenor sax"
-} \tenorSax
+} { \clef "treble_8" \tenorSax }
 
 trombonePart = \new Staff \with {
   instrumentName = "Trombone"
@@ -569,7 +652,7 @@ trombonePart = \new Staff \with {
 baritoneSaxPart = \new Staff \with {
   instrumentName = "Baritone Sax"
   midiInstrument = "baritone sax"
-} { \clef "treble_16" \baritoneSax }
+} { \clef "treble_15" \baritoneSax }
 
 \book {
   \paper {
