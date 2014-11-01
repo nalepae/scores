@@ -23,6 +23,20 @@ altoSaxTwo = \relative c'' {
 
 tenorSax = \relative c' {
   \global
+  
+  % Intro
+  \mark "Intro"
+  aes8 a4 bes8 des4 bes | des bes des d8 ees | r1 | f4 f ees8 des4 aes8 (|
+  aes8) a4 bes8 des4 bes | des bes des d8 ees | r1 | r1 |
+  aes,8 a4 bes8 des4 bes | des bes des d8 ees | r1 | f4 f ees8 des4 aes8 (|
+  aes8) a4 bes8 des4 bes | des bes des d8 ees | r1 | r1 \bar "||"
+  
+  % A
+  \mark "A"
+  aes,8 a4 bes8 des4 bes | des bes des d8 ees | r1 | f4 f ees8 des4 aes8 (|
+  aes8) a4 bes8 des4 bes | des bes des d8 ees | r1 | r1 |
+  aes,8 a4 bes8 des4 bes | des bes des d8 ees | r1 | f4 f ees8 des4 aes8 (|
+  aes8) a4 bes8 des4 bes | des bes des d8 ees | r1 | r1 \bar "||"
 }
 
 tromboneOne = \relative c {
