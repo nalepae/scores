@@ -26,17 +26,17 @@ tenorSax = \relative c' {
   
   % Intro
   \mark "Intro"
-  aes8 a4 bes8 des4 bes | des bes des d8 ees | r1 | f4 f ees8 des4 aes8 (|
-  aes8) a4 bes8 des4 bes | des bes des d8 ees | r1 | r1 |
-  aes,8 a4 bes8 des4 bes | des bes des d8 ees | r1 | f4 f ees8 des4 aes8 (|
-  aes8) a4 bes8 des4 bes | des bes des d8 ees | r1 | r1 \bar "||"
-  
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 \bar "||"
+
   % A
   \mark "A"
-  aes,8 a4 bes8 des4 bes | des bes des d8 ees | r1 | f4 f ees8 des4 aes8 (|
-  aes8) a4 bes8 des4 bes | des bes des d8 ees | r1 | r1 |
-  aes,8 a4 bes8 des4 bes | des bes des d8 ees | r1 | f4 f ees8 des4 aes8 (|
-  aes8) a4 bes8 des4 bes | des bes des d8 ees | r1 | r1 \bar "||"
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 \bar ":|.|:"
 }
 
 tromboneOne = \relative c {
