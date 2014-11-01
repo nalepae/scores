@@ -47,8 +47,8 @@ tromboneOne = \relative c {
   c8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
   c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
   c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
-  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
-  
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 \bar "||"
+
   % A
   \mark "A"
   c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
@@ -65,8 +65,8 @@ tromboneTwo = \relative c {
   ees8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
   ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
-  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
-  
+  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 \bar "||"
+
   % A
   \mark "A"
   ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
