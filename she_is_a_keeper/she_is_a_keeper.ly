@@ -59,7 +59,7 @@ tromboneOne = \relative c {
 
 tromboneTwo = \relative c {
   \global
-  
+
   % Intro
   \mark "Intro"
   ees8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
