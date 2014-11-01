@@ -25,8 +25,40 @@ tenorSax = \relative c' {
   \global
 }
 
-trombone = \relative c {
+tromboneOne = \relative c {
   \global
+  
+  % Intro
+  \mark "Intro"
+  c8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  
+  % A
+  \mark "A"
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 \bar ":|.|:"
+}
+
+tromboneTwo = \relative c {
+  \global
+  
+  % Intro
+  \mark "Intro"
+  ees8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
+  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
+  
+  % A
+  \mark "A"
+  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
+  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 | \bar ":|.|:"
 }
 
 baritoneSax = \relative c {
@@ -119,10 +151,15 @@ tenorSaxPart = \new Staff \with {
   midiInstrument = "tenor sax"
 } { \clef "treble_8" \tenorSax }
 
-trombonePart = \new Staff \with {
-  instrumentName = "Trombone"
+tromboneOnePart = \new Staff \with {
+  instrumentName = "Trombone 1"
   midiInstrument = "trombone"
-} { \clef bass \trombone }
+} { \clef bass \tromboneOne }
+
+tromboneTwoPart = \new Staff \with {
+  instrumentName = "Trombone 2"
+  midiInstrument = "trombone"
+} { \clef bass \tromboneTwo }
 
 baritoneSaxPart = \new Staff \with {
   instrumentName = "Baritone Sax"
@@ -147,7 +184,8 @@ baritoneSaxPart = \new Staff \with {
       \altoSaxOnePart
       \altoSaxTwoPart
       \tenorSaxPart
-      \trombonePart
+      \tromboneOnePart
+      \tromboneTwoPart
       \baritoneSaxPart
     >>
     \layout { }
