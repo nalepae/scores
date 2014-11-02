@@ -20,7 +20,7 @@ trumpetBbOne = \relative c'' {
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes | r2 r4 r8 f'' |
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
-  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes8 | r1 \bar "||"
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes8 | r1 \bar ":|.|:"
 
 }
 
@@ -39,7 +39,7 @@ trumpetBbTwo = \relative c'' {
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes | r2 r4 r8 des' |
   des8 f (f2.) (| f8) f ees4 f8 e des c | des c8 (c2.) | des8 ees4 e f des8 |
-  ees8 f (f2.) (| f8) f ees4 f8 ees des c | des c8 (c4) c bes8 bes8 | r1 \bar "||"
+  ees8 f (f2.) (| f8) f ees4 f8 ees des c | des c8 (c4) c bes8 bes8 | r1 \bar ":|.|:"
 }
 
 altoSaxOne = \relative c'' {
