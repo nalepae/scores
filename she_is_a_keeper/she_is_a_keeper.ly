@@ -120,6 +120,25 @@ tromboneOne = \relative c {
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 \bar ".|:"
+
+  % C
+  \mark "C"
+  bes,8 r4 des8 r4 ees8 r8 | r8 e r4 f8 ees f ees (| ees1) | r1 |
+  bes8 r4 des8 r4 ees8 r8 | r8 e r4 f8 ees f ees (| ees1) | r1 \bar ":|."
+
+  % D
+  \mark "D"
+  c8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 \bar "||"
+
+  % E
+  \mark "E"
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges4 | aes8 r4 g8 r4 f \bar "|."
 }
 
 tromboneTwo = \relative c {
@@ -164,6 +183,25 @@ tromboneTwo = \relative c {
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
   des8 r4 des8 r4 des8 des | r1 | r1 | r1 |
   des8 r4 des8 r4 des8 des | r1 | r1 | r1 \bar ".|:"
+
+  % C
+  \mark "C"
+  des,8 r4 f8 r4 g8 r8 | r8 g r4 aes8 g aes g (| g1) | r1 |
+  des8 r4 f8 r4 g8 r8 | r8 g r4 aes8 g aes g (| g1) | r1 \bar ":|."
+
+  % D
+  \mark "D"
+  ees8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
+  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 \bar "||"
+
+  % E
+  \mark "E"
+  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
+  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8) e4 f8 aes4 f | aes f aes bes | c8 r4 bes8 r4 aes \bar "|."
 }
 
 baritoneSax = \relative c {
