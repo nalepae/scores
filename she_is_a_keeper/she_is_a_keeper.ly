@@ -100,6 +100,19 @@ tromboneOne = \relative c {
   bes,8 r4 des8 r4 ees8 r8 | r8 e r4 f8 ees f ees (| ees1) | r1 |
   bes8 r4 des8 r4 ees8 r8 | r8 e r4 f8 ees f ees (| ees1) | r1 \bar ":|.|:"
 
+  % Chorus
+  \mark "Chorus"
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 \bar ":|."
+
+  % Chorus ending 1
+  \mark "Chorus Ending 1"
+  aes4 r aes r | bes aes f aes | r f' r e | r ees r des |
+  aes r aes r | bes aes f aes | r f' r e | r ees r des |
+  aes r aes r | bes aes f aes | r f' r e | r ees r des |
+  aes r aes r | bes aes f aes | r f' r e | r ees r des \bar "||"
 }
 
 tromboneTwo = \relative c {
@@ -123,6 +136,20 @@ tromboneTwo = \relative c {
   \mark "B"
   des,8 r4 f8 r4 g8 r8 | r8 g r4 aes8 g aes g (| g1) | r1 |
   des8 r4 f8 r4 g8 r8 | r8 g r4 aes8 g aes g (| g1) | r1 \bar ":|.|:"
+
+  % Chorus
+  \mark "Chorus"
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 \bar ":|."
+
+  % Chorus ending 1
+  \mark "Chorus Ending 1"
+  bes4 r bes r | des bes aes bes | r f' r e | r ees r des |
+  bes4 r bes r | des bes aes bes | r f' r e | r ees r des |
+  bes4 r bes r | des bes aes bes | r f' r e | r ees r des |
+  bes4 r bes r | des bes aes bes | r f' r e | r ees r des \bar "||"
 }
 
 baritoneSax = \relative c {
