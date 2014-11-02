@@ -227,8 +227,6 @@ baritoneSax = \relative c {
   bes4. bes8 des4. bes8 | des4 bes bes' f8 ees | r2 r8 ees e f (| f) aes4 f8 aes f aes8 bes |
   bes,4. bes8 des4. bes8 | des4 bes bes' f8 ees | r2 r8 ees e f (| f) aes4 f8 aes f des4 |
   bes4. bes8 des4. bes8 | des4 bes bes'8 f8 e8 r8 | ees8 r4 des8 r4 bes \bar "|."
-
-
 }
 
 trumpetBbOnePart = \new Staff \with {
