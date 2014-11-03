@@ -128,7 +128,7 @@ trumpetBbTwo = \relative c'' {
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes | r2 r4 r8 f' |
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
-  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f'4 | ees8 r4 des8 r4 bes \bar "|."
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f4 | ees'8 r4 des8 r4 bes \bar "|."
 }
 
 altoSaxOne = \relative c'' {
