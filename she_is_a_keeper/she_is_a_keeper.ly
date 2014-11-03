@@ -47,12 +47,12 @@ trumpetBbOne = \relative c'' {
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
   des8 r4 des8 r4 des8 des | r1 | r1 | r1 |
   des8 r4 des8 r4 des8 des | r1 | r1 | r1 \bar ".|:"
-  
+
   % C
   \mark "C"
   r8 f r4 ees8 r4 des8 | r4 bes8 r8 f' ees f ees (| ees1) | r1 |
   r8 f r4 ees8 r4 des8 | r4 bes8 r8 f' ees f ees (| ees1) | r1 \bar ":|."
-  
+
   % D
   \mark "D"
   r1 | r1 | r1 | r1 |
@@ -110,12 +110,12 @@ trumpetBbTwo = \relative c'' {
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
   des8 r4 des8 r4 des8 des | r1 | r1 | r1 |
   des8 r4 des8 r4 des8 des | r1 | r1 | r1 \bar ".|:"
-  
+
   % C
   \mark "C"
   r8 aes r4 g8 r4 f8 | r4 des8 r8 aes' g aes g (| g1) | r1 |
   r8 aes r4 g8 r4 f8 | r4 des8 r8 aes' g aes g (| g1) | r1 \bar ":|."
-  
+
   % D
   \mark "D"
   r1 | r1 | r1 | r1 |
