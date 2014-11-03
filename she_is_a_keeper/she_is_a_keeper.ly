@@ -131,12 +131,67 @@ trumpetBbTwo = \relative c'' {
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f4 | ees'8 r4 des8 r4 bes \bar "|."
 }
 
-altoSaxOne = \relative c'' {
+altoSax = \relative c'' {
   \global
-}
 
-altoSaxTwo = \relative c'' {
-  \global
+  % Intro
+  \mark "Intro"
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r2 r4 r8 f, \bar "||"
+
+  % A
+  \mark "A"
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes | r2 r4 r8 f' |
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes8 | r1 \bar ":|.|:"
+
+  % B
+  \mark "B"
+  r8 f' r4 ees8 r4 des8 | r4 bes8 r8 f' ees f ees (| ees1) | r1 |
+  r8 f r4 ees8 r4 des8 | r4 bes8 r8 f' ees f ees (| ees1) | r1 \bar ":|.|:"
+
+  % Chorus
+  \mark "Chorus"
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 \bar ":|."
+
+  % Chorus ending 1
+  \mark "Chorus Ending 1"
+  bes4 r bes r | des bes aes bes | r1 | r1 |
+  bes4 r bes r | des bes aes bes | r1 | r1 |
+  bes4 r bes r | des bes aes bes | r1 | r1 |
+  bes'4 r bes r | des bes aes bes | r1 | r1 | \bar "||"
+
+  % Chorus ending 2
+  \mark "Chorus Ending 2"
+  bes,8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
+  bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
+  des8 r4 des8 r4 des8 des | r1 | r1 | r1 |
+  des8 r4 des8 r4 des8 des | r1 | r1 | r1 \bar ".|:"
+
+  % C
+  \mark "C"
+  r8 f r4 ees8 r4 des8 | r4 bes8 r8 f' ees f ees (| ees1) | r1 |
+  r8 f r4 ees8 r4 des8 | r4 bes8 r8 f' ees f ees (| ees1) | r1 \bar ":|."
+
+  % D
+  \mark "D"
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r2 r4 r8 f \bar "||"
+
+  % E
+  \mark "E"
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes | r2 r4 r8 f' |
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f4 | ees'8 r4 des8 r4 bes \bar "|."
 }
 
 tenorSax = \relative c' {
@@ -401,15 +456,10 @@ trumpetBbTwoPart = \new Staff \with {
   midiInstrument = "trumpet"
 } \trumpetBbTwo
 
-altoSaxOnePart = \new Staff \with {
-  instrumentName = "Alto Sax 1"
+altoSaxPart = \new Staff \with {
+  instrumentName = "Alto Sax"
   midiInstrument = "alto sax"
-} { \clef "treble_8" \altoSaxOne }
-
-altoSaxTwoPart = \new Staff \with {
-  instrumentName = "Alto Sax 2"
-  midiInstrument = "alto sax"
-} { \clef "treble_8" \altoSaxTwo }
+} { \clef "treble_8" \altoSax }
 
 tenorSaxPart = \new Staff \with {
   instrumentName = "Tenor Sax"
@@ -446,8 +496,7 @@ baritoneSaxPart = \new Staff \with {
     <<
       \trumpetBbOnePart
       \trumpetBbTwoPart
-      \altoSaxOnePart
-      \altoSaxTwoPart
+      \altoSaxPart
       \tenorSaxPart
       \tromboneOnePart
       \tromboneTwoPart
@@ -497,20 +546,7 @@ baritoneSaxPart = \new Staff \with {
       arranger = "Manu - v1.0"
     }
     <<
-      \transpose c a, \altoSaxOnePart
-    >>
-  }
-
-  \pageBreak
-
-  \score {
-    \header {
-      title = "Funky Nassau"
-      composer = "Magicaboola Brass Band"
-      arranger = "Manu - v1.0"
-    }
-    <<
-      \transpose c a, \altoSaxTwoPart
+      \transpose c a, \altoSaxPart
     >>
   }
 
