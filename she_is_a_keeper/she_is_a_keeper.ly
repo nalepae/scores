@@ -155,6 +155,51 @@ tenorSax = \relative c' {
   c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
   c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
   c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 \bar ":|.|:"
+
+  % B
+  \mark "B"
+  f8 r4 aes8 r4 bes8 r | r b r4 c8 bes c bes (| bes1) | r1 |
+  f8 r4 aes8 r4 bes8 r | r b r4 c8 bes c bes (| bes1) | r1 \bar ":|.|:"
+
+  % Chorus
+  \mark "Chorus"
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 \bar ":|."
+
+  % Chorus ending 1
+  \mark "Chorus Ending 1"
+  aes4 r aes r | bes aes f aes | r f' r e | r ees r des |
+  aes r aes r | bes aes f aes | r f' r e | r ees r des |
+  aes r aes r | bes aes f aes | r f' r e | r ees r des |
+  aes r aes r | bes aes f aes | r f' r e | r ees r des \bar "||"
+
+  % Chorus ending 2
+  \mark "Chorus Ending 2"
+  bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
+  bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
+  des8 r4 des8 r4 des8 des | r1 | r1 | r1 |
+  des8 r4 des8 r4 des8 des | r1 | r1 | r1 \bar ".|:"
+
+  % C
+  \mark "C"
+  f,8 r4 aes8 r4 bes8 r | r b r4 c8 bes c bes (| bes1) | r1 |
+  f8 r4 aes8 r4 bes8 r | r b r4 c8 bes c bes (| bes1) | r1 \bar ":|."
+
+  % D
+  \mark "D"
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 \bar "||"
+
+  % E
+  \mark "E"
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges8 g | r1 | r1 |
+  c,8 des4 d8 f4 d | f d f ges8 g | r1 | aes4 aes g8 f4 c8 (|
+  c8) des4 d8 f4 d | f d f ges4 | aes8 r4 g8 r4 f \bar "|."
 }
 
 tromboneOne = \relative c {
