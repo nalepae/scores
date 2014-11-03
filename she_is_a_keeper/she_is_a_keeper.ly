@@ -242,8 +242,8 @@ tromboneOne = \relative c {
   \mark "Chorus Ending 2"
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
-  bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
-  bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 \bar ".|:"
+  des8 r4 des8 r4 des8 des | r1 | r1 | r1 |
+  des8 r4 des8 r4 des8 des | r1 | r1 | r1 \bar ".|:"
 
   % C
   \mark "C"
@@ -305,8 +305,8 @@ tromboneTwo = \relative c {
   \mark "Chorus Ending 2"
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
   bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
-  des8 r4 des8 r4 des8 des | r1 | r1 | r1 |
-  des8 r4 des8 r4 des8 des | r1 | r1 | r1 \bar ".|:"
+  bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 |
+  bes8 r4 bes8 r4 bes8 bes | r1 | r1 | r1 \bar ".|:"
 
   % C
   \mark "C"
