@@ -82,7 +82,7 @@ trumpetBbTwo = \relative c'' {
   \mark "A"
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes | r2 r4 r8 des' |
-  des8 f (f2.) (| f8) f ees4 f8 e des c | des c8 (c2.) | des8 ees4 e f des8 |
+  ees8 f (f2.) (| f8) f ees4 f8 ees des c | des c8 (c2.) | des8 ees4 e f des8 |
   ees8 f (f2.) (| f8) f ees4 f8 ees des c | des c8 (c4) c bes8 bes8 | r1 \bar ":|.|:"
 
   % B
@@ -126,9 +126,9 @@ trumpetBbTwo = \relative c'' {
   % E
   \mark "E"
   aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
-  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes | r2 r4 r8 f' |
-  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees2.) | f8 g4 aes a f8 |
-  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f4 | ees'8 r4 des8 r4 bes \bar "|."
+  aes8 bes (bes2.) (| bes8) bes aes4 bes8 aes f ees | f ees8 (ees4) ees des8 bes | r2 r4 r8 des' |
+  ees8 f (f2.) (| f8) f ees4 f8 ees des c | des c8 (c2.) | des8 ees4 e f des8 |
+  ees8 f (f2.) (| f8) f ees4 f8 ees des4 | ees8 r4 des8 r4 bes \bar "|."
 }
 
 altoSax = \relative c'' {
@@ -325,16 +325,16 @@ tromboneTwo = \relative c {
 
   % Intro
   \mark "Intro"
-  ees8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8 e4 ees8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
-  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees,8 e4 ees8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 \bar "||"
 
   % A
   \mark "A"
-  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees,8 e4 ees8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
-  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees,8 e4 ees8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 | \bar ":|.|:"
 
   % B
@@ -370,16 +370,16 @@ tromboneTwo = \relative c {
 
   % D
   \mark "D"
-  ees8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees8 e4 ees8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
-  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees,8 e4 ees8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 \bar "||"
 
   % E
   \mark "E"
-  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees,8 e4 ees8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes a8 bes | r1 | r1 |
-  ees,8 e4 f8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
+  ees,8 e4 ees8 aes4 f | aes f aes a8 bes | r1 | c4 c bes8 aes4 ees8 (|
   ees8) e4 f8 aes4 f | aes f aes bes | c8 r4 bes8 r4 aes \bar "|."
 }
 
@@ -510,13 +510,13 @@ baritoneSaxPart = \new Staff \with {
       }
     }
   }
-%{
+
   \pageBreak
 
   \score {
     \header {
-      title = "Funky Nassau"
-      composer = "Magicaboola Brass Band"
+      title = "She's a Keeper"
+      composer = "One Lard Biskit Brass Band"
       arranger = "Manu - v1.0"
     }
     <<
@@ -528,8 +528,8 @@ baritoneSaxPart = \new Staff \with {
 
   \score {
     \header {
-      title = "Funky Nassau"
-      composer = "Magicaboola Brass Band"
+      title = "She's a Keeper"
+      composer = "One Lard Biskit Brass Band"
       arranger = "Manu - v1.0"
     }
     <<
@@ -541,8 +541,8 @@ baritoneSaxPart = \new Staff \with {
 
   \score {
     \header {
-      title = "Funky Nassau"
-      composer = "Magicaboola Brass Band"
+      title = "She's a Keeper"
+      composer = "One Lard Biskit Brass Band"
       arranger = "Manu - v1.0"
     }
     <<
@@ -554,8 +554,8 @@ baritoneSaxPart = \new Staff \with {
 
   \score {
     \header {
-      title = "Funky Nassau"
-      composer = "Magicaboola Brass Band"
+      title = "She's a Keeper"
+      composer = "One Lard Biskit Brass Band"
       arranger = "Manu - v1.0"
     }
     <<
@@ -567,12 +567,23 @@ baritoneSaxPart = \new Staff \with {
 
   \score {
     \header {
-      title = "Funky Nassau"
-      composer = "Magicaboola Brass Band"
+      title = "She's a Keeper"
+      composer = "One Lard Biskit Brass Band"
       arranger = "Manu - v1.0"
     }
     <<
-      \trombonePart
+      \tromboneOnePart
+    >>
+  }
+
+  \score {
+    \header {
+      title = "She's a Keeper"
+      composer = "One Lard Biskit Brass Band"
+      arranger = "Manu - v1.0"
+    }
+    <<
+      \tromboneTwoPart
     >>
   }
 
@@ -580,14 +591,13 @@ baritoneSaxPart = \new Staff \with {
 
   \score {
     \header {
-      title = "Funky Nassau"
-      composer = "Magicaboola Brass Band"
+      title = "She's a Keeper"
+      composer = "One Lard Biskit Brass Band"
       arranger = "Manu - v1.0"
     }
     <<
       \transpose c a, \baritoneSaxPart
     >>
   }
-%}
 }
 
