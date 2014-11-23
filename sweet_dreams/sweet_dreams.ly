@@ -16,7 +16,7 @@ trumpetBbOne = \relative c'' {
 
   \alternative {
     { c1 | b | }
-    { c1 | b \fermata | }
+    { c1 | b \fermata \bar "||" }
   }
   
 }
@@ -32,7 +32,7 @@ trumpetBbTwo = \relative c'' {
 
   \alternative {
     { g1 (| g ) | }
-    { g1 (| g ) \fermata | }
+    { g1 (| g ) \fermata \bar "||" }
   }
 }
 
@@ -47,7 +47,7 @@ altoSax = \relative c'' {
 
   \alternative {
     { c1 | b | }
-    { c1 | b \fermata | }
+    { c1 | b \fermata \bar "||" }
   }
 }
 
@@ -62,7 +62,7 @@ tenorSax = \relative c'' {
 
   \alternative {
     { c1 | b | }
-    { c1 | b \fermata | }
+    { c1 | b \fermata \bar "||" }
   }
 }
 
@@ -77,7 +77,7 @@ tromboneOne = \relative c {
 
   \alternative {
     { d1) (| d) | }
-    { d1 (| d) \fermata | }
+    { d1 (| d) \fermata \bar "||" }
   }
 }
 
@@ -92,7 +92,7 @@ tromboneTwo = \relative c {
 
   \alternative {
     { g1) (| g) | }
-    { g1 (| g) \fermata | }
+    { g1 (| g) \fermata \bar "||" }
   }
 }
 
@@ -108,7 +108,7 @@ baritoneSax = \relative c {
 
   \alternative {
     { g g g g | g' f ees d | }
-    { g,1 (| g) \fermata | }
+    { g,1 (| g) \fermata \bar "||" }
   }
 }
 
