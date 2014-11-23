@@ -19,6 +19,10 @@ trumpetBbOne = \relative c'' {
     { c1 | b \fermata \bar "||" }
   }
 
+  % A
+  \mark "A"
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees |
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees \bar "||"
 }
 
 trumpetBbTwo = \relative c'' {
@@ -34,6 +38,11 @@ trumpetBbTwo = \relative c'' {
     { g1 (| g ) | }
     { g1 (| g ) \fermata \bar "||" }
   }
+
+  % A
+  \mark "A"
+  r4 c8 c r ees r c | r aes bes c r g bes c | r4 c8 c r ees r c | r aes bes c r g bes c |
+  r4 c8 c r ees r c | r aes bes c r g bes c | r4 c8 c r ees r c | r aes bes c r g bes c \bar "||"
 }
 
 altoSax = \relative c'' {
