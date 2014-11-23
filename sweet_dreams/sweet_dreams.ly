@@ -111,8 +111,8 @@ tromboneTwo = \relative c {
 
   % A
   \mark "A"
-  c,8 c c' c ees ees c c | aes aes r aes g g bes c | c,8 c c' c ees ees c c | aes aes r aes g g bes c |
-  c,8 c c' c ees ees c c | aes aes r aes g g bes c | c,8 c c' c ees ees c c | aes aes r aes g g bes c \bar "||"
+  r4 ees'8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees |
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees \bar "||"
 }
 
 baritoneSax = \relative c {
