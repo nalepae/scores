@@ -58,6 +58,11 @@ altoSax = \relative c'' {
     { c1 | b | }
     { c1 | b \fermata \bar "||" }
   }
+  
+  % A
+  \mark "A"
+  c8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c |
+  c,8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c \bar "||"
 }
 
 tenorSax = \relative c'' {
@@ -73,6 +78,11 @@ tenorSax = \relative c'' {
     { c1 | b | }
     { c1 | b \fermata \bar "||" }
   }
+
+  % A
+  \mark "A"
+  c8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c |
+  c,8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c \bar "||"
 }
 
 tromboneOne = \relative c {
