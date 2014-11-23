@@ -79,6 +79,11 @@ tromboneOne = \relative c {
     { d1) (| d) | }
     { d1 (| d) \fermata \bar "||" }
   }
+
+  % A
+  \mark "A"
+  c,8 c c' c ees ees c c | aes aes r aes g g bes c | c,8 c c' c ees ees c c | aes aes r aes g g bes c |
+  c,8 c c' c ees ees c c | aes aes r aes g g bes c | c,8 c c' c ees ees c c | aes aes r aes g g bes c \bar "||"
 }
 
 tromboneTwo = \relative c {
@@ -94,6 +99,11 @@ tromboneTwo = \relative c {
     { g1) (| g) | }
     { g1 (| g) \fermata \bar "||" }
   }
+
+  % A
+  \mark "A"
+  c,8 c c' c ees ees c c | aes aes r aes g g bes c | c,8 c c' c ees ees c c | aes aes r aes g g bes c |
+  c,8 c c' c ees ees c c | aes aes r aes g g bes c | c,8 c c' c ees ees c c | aes aes r aes g g bes c \bar "||"
 }
 
 baritoneSax = \relative c {
