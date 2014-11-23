@@ -58,7 +58,7 @@ altoSax = \relative c'' {
     { c1 | b | }
     { c1 | b \fermata \bar "||" }
   }
-  
+
   % A
   \mark "A"
   c8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c |
@@ -143,7 +143,10 @@ baritoneSax = \relative c {
   % A
   \mark "A"
   c8 c r4 r2 | r1 | c8 c r4 r2 | r1 |
-  c8 c r4 r8 ees' bes a | aes aes r aes g a bes c | c,8 c r4 r8 ees' bes a | aes aes r aes g r bes c \bar "||"
+  c8 c r4 r8 ees' bes a | aes aes r aes g a bes c | c,8 c c' c r8 ees bes a | aes aes r aes g r bes c \bar "||"
+
+  % B
+  \mark "B"
 }
 
 trumpetBbOnePart = \new Staff \with {
