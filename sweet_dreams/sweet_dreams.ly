@@ -41,8 +41,8 @@ trumpetBbTwo = \relative c'' {
 
   % A
   \mark "A"
-  r4 c8 c r ees r c | r aes bes c r g bes c | r4 c8 c r ees r c | r aes bes c r g bes c |
-  r4 c8 c r ees r c | r aes bes c r g bes c | r4 c8 c r ees r c | r aes bes c r g bes c \bar "||"
+  r4 c8 c r ees r c | r g bes c r g bes c | r4 c8 c r ees r c | r g bes c r g bes c |
+  r4 c8 c r ees r c | r g bes c r g bes c | r4 c8 c r ees r c | r g bes c r g bes c \bar "||"
 }
 
 altoSax = \relative c'' {
