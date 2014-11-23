@@ -7,7 +7,7 @@ global = {
 
 trumpetBbOne = \relative c'' {
   \global
-  
+
   \mark "Intro"
   \repeat volta 2 {
     g'1 | g8 f r c r f d4 (| d2.) r4 | ees2. d4 |
@@ -18,12 +18,12 @@ trumpetBbOne = \relative c'' {
     { c1 | b | }
     { c1 | b \fermata \bar "||" }
   }
-  
+
 }
 
 trumpetBbTwo = \relative c'' {
   \global
-  
+
   \mark "Intro"
   \repeat volta 2 {
     ees1 | ees8 d r aes r d bes4 (| bes2.) r4 | c2. bes4 |
@@ -38,7 +38,7 @@ trumpetBbTwo = \relative c'' {
 
 altoSax = \relative c'' {
   \global
-  
+
   \mark "Intro"
   \repeat volta 2 {
     ees,1 | ees8 d r bes r d bes4 (| bes2.) r4 | c2. bes4 |
@@ -53,7 +53,7 @@ altoSax = \relative c'' {
 
 tenorSax = \relative c'' {
   \global
-  
+
   \mark "Intro"
   \repeat volta 2 {
     ees,,1 | ees8 d r bes r d bes4 (| bes2.) r4 | c2. bes4 |
@@ -68,7 +68,7 @@ tenorSax = \relative c'' {
 
 tromboneOne = \relative c {
   \global
-  
+
   \mark "Intro"
   \repeat volta 2 {
     g''1 | g8 f r c r f d4 (| d2.) r4 | ees2. d4 |
@@ -83,7 +83,7 @@ tromboneOne = \relative c {
 
 tromboneTwo = \relative c {
   \global
-  
+
   \mark "Intro"
   \repeat volta 2 {
     c'1 | c8 bes r f r bes g4 (| g2.) r4 | aes2. g4 |
@@ -98,7 +98,7 @@ tromboneTwo = \relative c {
 
 baritoneSax = \relative c {
   \global
-  
+
   % Intro
   \mark "Intro"
   \repeat volta 2 {
@@ -110,6 +110,11 @@ baritoneSax = \relative c {
     { g g g g | g' f ees d | }
     { g,1 (| g) \fermata \bar "||" }
   }
+
+  % A
+  \mark "A"
+  c8 c r4 r2 | r1 | c8 c r4 r2 | r1 |
+  c8 c r4 r8 ees' bes a | aes aes r aes g a bes c | c,8 c r4 r8 ees' bes a | aes aes r aes g r bes c \bar "||"
 }
 
 trumpetBbOnePart = \new Staff \with {
