@@ -61,8 +61,8 @@ altoSax = \relative c'' {
 
   % A
   \mark "A"
-  c8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c |
-  c,8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c \bar "||"
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees |
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees \bar "||"
 }
 
 tenorSax = \relative c'' {
