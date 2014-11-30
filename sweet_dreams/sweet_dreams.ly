@@ -709,7 +709,7 @@ baritoneSaxPart = \new Staff \with {
       }
     }
   }
-%{
+
   \pageBreak
 
   \score {
@@ -748,21 +748,7 @@ baritoneSaxPart = \new Staff \with {
       arranger = "Manu - v1.0"
     }
     <<
-      \transpose c a, \altoSaxOnePart
-    >>
-  }
-
-  \pageBreak
-
-  \score {
-    \header {
-      title = "Sweet Dreams"
-      subtitle = "Are Made Of This"
-      composer = "Soul Rebels Brass Band"
-      arranger = "Manu - v1.0"
-    }
-    <<
-      \transpose c a, \altoSaxTwoPart
+      \transpose c a, \altoSaxPart
     >>
   }
 
@@ -790,7 +776,7 @@ baritoneSaxPart = \new Staff \with {
       arranger = "Manu - v1.0"
     }
     <<
-      \trombonePart
+      \tromboneOnePart
     >>
   }
 
@@ -804,10 +790,22 @@ baritoneSaxPart = \new Staff \with {
       arranger = "Manu - v1.0"
     }
     <<
+      \tromboneTwoPart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Sweet Dreams"
+      subtitle = "Are Made Of This"ss
+      composer = "Soul Rebels Brass Band"
+      arranger = "Manu - v1.0"
+    }
+    <<
       \transpose c a, \baritoneSaxPart
     >>
   }
-%}
-
 }
 
