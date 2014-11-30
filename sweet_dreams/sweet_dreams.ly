@@ -62,7 +62,7 @@ trumpetBbOne = \relative c'' {
   % H
   \mark "H"
   c2. r4 | g'4. aes4 bes8 g4 | ees1 | r2 r8 c' d ees
-  (| c1) | r2 ges8 f ees c (| c1) (| c) \bar "||"
+  (| ees1) | r2 ges,8 f ees c (| c1) (| c) \bar "||"
 
   % Chorus
   \mark "Chorus"
@@ -86,14 +86,14 @@ trumpetBbOne = \relative c'' {
   % K
   \mark "K"
   c2. r4 | g'4. aes4 bes8 g4 | ees1 | r2 r8 c' d ees
-  (| c1) | r2 ges8 f ees c (| c1) | c' \bar "||"
+  (| ees1) | r2 ges,8 f ees c (| c1) | c' \bar "||"
 
   % Ending Chorus
   \mark "Ending Chorus"
   r4 ees,8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees |
   r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees |
   r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees |
-  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r g aes c \bar "|."
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r g bes c \bar "|."
 }
 
 trumpetBbTwo = \relative c'' {
@@ -609,7 +609,7 @@ baritoneSax = \relative c {
 
   % H
   \mark "H"
-  c,8 c c' c r8 ees bes a | aes aes r aes g g bes c | c,8 c c' c r8 ees bes a | aes aes r aes g a bes c |
+  c8 c c' c r8 ees bes a | aes aes r aes g g bes c | c,8 c c' c r8 ees bes a | aes aes r aes g a bes c |
   c,8 c c' c r8 ees bes a | aes aes r aes g g bes c | c,8 c c' c r8 ees bes a | aes aes r aes g a bes c \bar "||"
 
   % Chorus
@@ -628,12 +628,12 @@ baritoneSax = \relative c {
 
   % J
   \mark "J"
-  c1 | f | c | f2 (f8) f16 g f8 ees |
+  c,1 | f | c | f2 (f8) f16 g f8 ees |
   c1 | f | c | f8 f f16 f r8 r2 \bar "||"
 
   % K
   \mark "K"
-  c,8 c c' c r8 ees bes a | aes aes r aes g g bes c | c,8 c c' c r8 ees bes a | aes aes r aes g a bes c |
+  c8 c c' c r8 ees bes a | aes aes r aes g g bes c | c,8 c c' c r8 ees bes a | aes aes r aes g a bes c |
   c,8 c c' c r8 ees bes a | aes aes r aes g g bes c | c,8 c c' c r8 ees bes a | aes aes r aes g a bes c \bar "||"
 
   % Ending Chorus
