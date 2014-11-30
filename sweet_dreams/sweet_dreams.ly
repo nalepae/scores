@@ -58,6 +58,11 @@ trumpetBbOne = \relative c'' {
   \mark "G"
   g8 ees ees16 ees r8 r2 | g8 ees ees16 ees r8 r2 | g8 ees ees16 ees r8 r2 | g8 ees ees16 ees r8 r2 |
   g8 ees ees16 ees r8 r2 | g8 ees ees16 ees r8 r2 | g8 ees ees16 ees r8 r2 | g8 g g16 g r8 r8 c,16 d ees d c bes \bar "||"
+
+  % H
+  \mark "H"
+  c2. r4 | g'4. aes4 bes8 g4 | ees1 | r2 r8 c' d ees
+  (| c1) | r2 ges8 f ees c (| c1) (| c) \bar "||"
 }
 
 trumpetBbTwo = \relative c'' {
@@ -113,6 +118,11 @@ trumpetBbTwo = \relative c'' {
   \mark "G"
   ees8 c c16 c r8 r2 | ees8 c c16 c r8 r2 | ees8 c c16 c r8 r2 | ees8 c c16 c r8 r2 |
   ees8 c c16 c r8 r2 | ees8 c c16 c r8 r2 | ees8 c c16 c r8 r2 | ees8 ees g16 g r8 r8 c,16 d ees d c bes \bar "||"
+
+  % H
+  \mark "H"
+  c2. r4 | ees4. f4 g8 ees4 | c1 | r2 r8 g' bes c
+  (| c1) | r2 ges8 f ees c (| c1) (| c) \bar "||"
 }
 
 altoSax = \relative c'' {
@@ -168,6 +178,11 @@ altoSax = \relative c'' {
   \mark "G"
   r1 | r | r | r |
   r | r | r | r \bar "||"
+
+  % H
+  \mark "H"
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees |
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees \bar "||"
 }
 
 tenorSax = \relative c'' {
@@ -223,6 +238,11 @@ tenorSax = \relative c'' {
   \mark "G"
   r1 | r | r | r |
   r | r | r | r \bar "||"
+
+  % H
+  \mark "H"
+  c,8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c |
+  c,8 c c' c r ees r c | r g bes c r g bes c | c,8 c c' c r ees r c | r g bes c r g bes c \bar "||"
 }
 
 tromboneOne = \relative c {
@@ -278,6 +298,11 @@ tromboneOne = \relative c {
   \mark "G"
   r2 f8 f16 g r4 | r2 f8 f16 g r4 | r2 f8 f16 g r4 | r2 f8 f16 g r4 |
   r2 f8 f16 g r4 | r2 f8 f16 g r4 | r2 f8 f16 g r4 | g8 g g16 g r8 r2 \bar "||"
+
+  % H
+  \mark "H"
+  c,,8 c c' c ees ees c c | aes aes r aes g g bes c | c,8 c c' c ees ees c c | aes aes r aes g g bes c |
+  c,8 c c' c ees ees c c | aes aes r aes g g bes c | c,8 c c' c ees ees c c | aes aes r aes g g bes c \bar "||"
 }
 
 tromboneTwo = \relative c {
@@ -333,6 +358,11 @@ tromboneTwo = \relative c {
   \mark "G"
   r2 d8 d16 ees r4 | r2 d8 d16 ees r4 | r2 d8 d16 ees r4 | r2 d8 d16 ees r4 |
   r2 d8 d16 ees r4 | r2 d8 d16 ees r4 | r2 d8 d16 ees r4 | ees8 ees ees16 ees r8 r2 \bar "||"
+
+  % H
+  \mark "H"
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees |
+  r4 ees8 ees r g r ees | r c d ees r c d ees | r4 ees8 ees r g r ees | r c d ees r c d ees \bar "||"
 }
 
 baritoneSax = \relative c {
@@ -390,6 +420,10 @@ baritoneSax = \relative c {
   c1 | f | c | f2 (f8) f16 g f8 ees |
   c1 | f | c | f8 f f16 f r8 r2 \bar "||"
 
+  % H
+  \mark "H"
+  c,8 c c' c r8 ees bes a | aes aes r aes g g bes c | c,8 c c' c r8 ees bes a | aes aes r aes g a bes c |
+  c,8 c c' c r8 ees bes a | aes aes r aes g g bes c | c,8 c c' c r8 ees bes a | aes aes r aes g a bes c \bar "||"
 }
 
 trumpetBbOnePart = \new Staff \with {
