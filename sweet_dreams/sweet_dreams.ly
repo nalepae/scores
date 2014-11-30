@@ -385,10 +385,11 @@ baritoneSax = \relative c {
   aes,4. aes8 aes4 aes | g4. g8 g4 b | c4. c8 c4 ees | f4. f8 (f) f (f) ees |
   aes,4. aes8 aes4 aes | g8 g a4 bes b \bar "||"
 
- % G
- \mark "G"
- c1 | f | c | f2 (f8) f16 g f8 ees |
- c1 | f | c | f8 f f16 f r8 r2 \bar "||"
+  % G
+  \mark "G"
+  c1 | f | c | f2 (f8) f16 g f8 ees |
+  c1 | f | c | f8 f f16 f r8 r2 \bar "||"
+
 }
 
 trumpetBbOnePart = \new Staff \with {
