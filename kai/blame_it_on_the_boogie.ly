@@ -19,20 +19,18 @@ trumpetBb = \relative c'' {
   \compressFullBarRests
   \override MultiMeasureRest.expand-limit = #2
 
-  R1*10 | r4 c r2 | r1 |
-  r4 r8 ees r2 | r4 r8 ees, r2 | r8 ees' bes c ees f ees aes | r2 r8 e (e4) \bar "||"
+  R1*10 | r4 c' r2 | r1 |
+  r4 r8 ees, r2 | r4 r8 ees, r2 | r8 ees' bes c ees f ees aes | r2 r8 d, (d4) \bar "||"
 
   % A
   \mark A
   \compressFullBarRests
   \override MultiMeasureRest.expand-limit = #2
   ees8 r8 r4 r2  | R1*5 | ees4. ees ees4 (|ees1) |
-  ees8 r8 r4 r2  | R1*5 | ees4. ees ees4 (|ees1) \bar "||"
+  R1*6 | ees4. ees ees4 (|ees1) \bar "||"
 
   % B
   \mark B
-  \compressFullBarRests
-  \override MultiMeasureRest.expand-limit = #2
   r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
   r2 r4 d4 | r8 d8 r4 r2 | r2 r4 ees4 | r1 |
   r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
@@ -42,14 +40,11 @@ trumpetBb = \relative c'' {
   \mark C
   \compressFullBarRests
   \override MultiMeasureRest.expand-limit = #2
-  R1*5 | r8 bes c4 ees f | ees4. ees ees4 (|ees1)
+  R1*5 | r8 bes c4 ees f | aes4. bes ees,4 (|ees1)
   R1*3 | r2 ees8 ees r4 |
   r1 | r | ees4. ees ees4 (|ees1) \bar "||"
 
   % D
-  \mark D
-  \compressFullBarRests
-  \override MultiMeasureRest.expand-limit = #2
   r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
   r2 r4 d4 | r8 d8 r4 r2 | r2 r4 ees4 | r1 |
   r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
@@ -57,13 +52,50 @@ trumpetBb = \relative c'' {
 
   % E
   \mark E
+  ees4 r4 r2 | g4 r4 r2 | aes4 r4 r2 | r4 a4. bes |
+  ees,4 r4 r2 | g4 r4 r2 | aes4 r4 r2 | r4 a4. bes |
+  ees,4 r4 r2 | g4 r4 r2 | aes4 r4 r2 | r4 a4. bes |
+  ees,4 r4 r2 | g4 r4 r2 | aes4 r4 r2 | r4 a4. bes \bar "||"
+
+  % F
+  \mark F
+  r2 r8 bes, c4 | ees8 ees r4 r2 | r1 | r |
+  r2 r4 d4 | r8 d8 r4 r2 | r2 r4 ees4 | r1 |
+  r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
+  r2 r4 d4 | r8 d8 r4 r2 | r2 r4 ees4 | r1  \bar "||"
+
+  % G
+  \mark G
+  r1 | r | r4 c' r2 | r1 |
+  r4 r8 ees, r2 | r4 r8 ees, r2 | r8 ees' bes c ees f ees aes | r2 r8 d, (d4) \bar "||"
+
+  % H
+  \mark H
   \compressFullBarRests
   \override MultiMeasureRest.expand-limit = #2
-  ees4 r4 r2 | g4 r4 r2 | aes4 r4 r2 | r4 ees4. ees |
-  ees4 r4 r2 | g4 r4 r2 | aes4 r4 r2 | r4 ees4. ees |
-  ees4 r4 r2 | g4 r4 r2 | aes4 r4 r2 | r4 ees4. ees |
-  ees4 r4 r2 | g4 r4 r2 | aes4 r4 r2 | r4 ees4. ees \bar "||"
+  ees8 r8 r4 r2  | R1*4 | r8 bes c4 ees f |  aes4. bes ees,4 (|ees1)
+  R1*3 | r2 ees8 ees r4 |
+  r1 | r | ees4. ees ees4 (|ees1) \bar "||"
 
+  % I
+  \mark I
+  r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
+  r2 r4 d4 | r8 d8 r4 r2 | r2 r4 ees4 | r1 |
+  r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
+  r2 r4 d4 | r8 d8 r4 r2 | r2 r4 ees4 | r1  \bar "||"
+
+  % J
+  \mark J
+  \compressFullBarRests
+  \override MultiMeasureRest.expand-limit = #2
+  R1*16 \bar "||"
+
+  % K
+  \mark K
+  r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
+  r2 r4 d4 | r8 d8 r4 r2 | r2 r4 ees4 | r1 |
+  r2 r8 bes c4 | ees8 ees r4 r2 | r1 | r |
+  r2 r4 d4 | r8 d8 r4 r2 | r2 r4 ees4 \bar "|."
 }
 
 tenorSax = \relative c'' {
