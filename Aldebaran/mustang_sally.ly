@@ -42,7 +42,7 @@ tenorSax = \relative c'' {
   \new Staff \with {
     instrumentName = "Tenor Sax"
     midiInstrument = "tenor sax"
-  } \tenorSax
+  } \transpose c d \tenorSax
   \layout { }
   \midi {
     \context {
