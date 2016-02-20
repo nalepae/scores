@@ -17,9 +17,37 @@ flute = \relative c'' {
   % Music follows here.
 }
 
-trumpetBb = \relative c'' {
+trumpetBb = \relative c' {
   \global
-  % Music follows here.
+  \compressFullBarRests
+  \override MultiMeasureRest.expand-limit = #1
+
+  % Drums intro
+  \mark "Drums intro"
+  R1*4 \bar "||"
+
+  % Tenor sax intro
+  \mark "Tenor sax intro"
+  R1*8 \bar "||"
+
+  % All intro
+  \mark "All intro"
+  e1 | g2. r4 | e1 | d2. r4 |
+  e1 | g2. r4 | e1 | d2. r4 \bar "||"
+
+  % A
+  \mark A
+  r4. e8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 e e e e d (| d4) r8 b b c \grace cis (d) c8 (|
+  c4) r8 e,8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 c c c d e (| e4) r8 b b c \grace cis (d) c8 (|
+
+  % B
+  \mark B
+  c4) r8 e,8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 e e e e d (| d4) r8 b b c \grace cis (d) c8 (|
+  c4) r8 e,8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 g c d e f | g4 r8 g,8 d'4 b \bar "||"
+
+  % C
+  \mark C
+  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b | c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g, g4 f \bar "||"
 }
 
 clarinet = \relative c'' {
