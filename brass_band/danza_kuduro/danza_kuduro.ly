@@ -123,6 +123,8 @@ bassTuba = \relative c {
   \global
   \compressFullBarRests
   \override MultiMeasureRest.expand-limit = #1
+
+  % Drums intro
   \mark "Drums intro"
   R1*4 \bar "||"
 
@@ -132,8 +134,8 @@ bassTuba = \relative c {
 
   % All intro
   \mark "All intro"
-  a,1 | f' | c | g' |
-  a,1 | f' | c | g' \bar "||"
+  a,1 | f'2. r4 | c1 | g'2. r4 |
+  a,1 | f'2. r4 | c1 | g'2. r4 \bar "||"
 
   % A
   \mark A
@@ -142,13 +144,13 @@ bassTuba = \relative c {
 
   % B
   \mark B
-  a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r f d d | c16 r8 c16 r8 g16 r c r8 c16 r8 f16 r | g16 r8 g16 r8 c, g' g' gis,4 |
-  a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r8 f16 d | c16 r8 c16 r8 g'16 r c, r8 c16 r8 f16 r | g16 r8 g16 r8 c, g'4 gis \bar "||"
+  a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r f d d | c16 r8 c16 r8 g16 r c r8 c16 r8 f16 r | g16 r8 g16 r8 d g g' gis,4 |
+  a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r8 f16 d | c16 r8 c16 r8 g'16 r c, r8 c16 r8 f16 r | g16 r8 g16 r8 d g4 gis \bar "||"
 
   % C
   \mark C
   a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r f d d | c16 r8 c16 r8 g16 r c r8 c16 r8 f16 r | g16 r8 g16 r8 d g g' gis,4 |
-  a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r8 f16 d | c16 r8 c16 r8 g'16 r c, r8 c16 r8 f16 r | g16 r8 g16 r8 c, g'4 gis \bar "||"
+  a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r8 f16 d | c16 r8 c16 r8 g'16 r c, r8 c16 r8 f16 r | g16 r8 g16 r8 d g4 gis \bar "||"
 
   % Tenor Sax Solo
   \mark "Tenor Sax Solo"
@@ -163,9 +165,9 @@ bassTuba = \relative c {
   % E
   \mark E
   a8. a8. e8 a8. a8. g8 | f8. f8. c8 f8. f8. g8 | c8. c8. g8  c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' |
-  a,8. a8. e8 a8. a8 a16 gis16 gis | f8. f8. c'8 f8. f8 f16 e d | c8. c8. g8  c,8. c8. f8 | g8. g8. c8 g4 gis |
-  a8. a8. c,8 a'8. gis8. g8 | f8. f8. c8 f4 e8 d8 | c8. e8. g8 c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' |
-  a,8. a8. c,8 a'8. gis8. g8 | f8. f8. c8 f4 e8 d8 | c8. e8. g8 c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' \bar "||"
+  a,8. a8. e8 a8. a8 a16 gis16 gis | f8. f8. c'8 f8. f8 f16 e d | c8. c8. g8  c,8. c8. f8 | g8. g8. d'8 g,4 gis |
+  a8. a8. e8 a8. gis8. g8 | f8. f8. c8 f4 e8 d8 | c8. e8. g8 c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' |
+  a,8. a8. e8 a8. gis8. g8 | f8. f8. c8 f4 e8 d8 | c8. e8. g8 c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' \bar "||"
 
   % F
   \mark F
@@ -173,7 +175,31 @@ bassTuba = \relative c {
   a8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
   a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
   a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
-  a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | \times 2/3 {a8 e a} \times 2/3 {gis e gis} \times 2/3 {g e g} \times 2/3 {fis e fis} |
+  a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | \times 2/3 {a8 e a} \times 2/3 {gis e gis} \times 2/3 {g e g} \times 2/3 {fis e fis} \bar "||"
+
+  % G
+  \mark G
+  f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | f8. f8. c8 f8. f8. r8 | a4 g4 (g2) |
+  f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | e2 f g (g8) r r4 \bar "||"
+
+  % H
+  \mark H
+  a,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4 r4 |
+  a8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
+  a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
+  a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
+  a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a4 gis4 g fis \bar "||"
+
+  % I
+  \mark I
+  f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | f8. f8. c8 f8. f8. r8 | a4 g4 (g2) |
+  f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | e2 f g (g8) r r4 \bar "||"
+
+  % J
+  \mark J
+  a8 r r4 a8. g8. a8 | r2 a8. g8. a8 | r2 a8. g8. f8 (| f1) |
+  a,8 r r4 a'8. g8. a8 | r2 r8 a8. g8. | a8 r r4 a8. g8. f8 (| f1) (| f1) \bar "|."
+
 }
 
 flutePart = \new Staff \with {
