@@ -108,11 +108,11 @@ tenorSax = \relative c' {
   a16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
   a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
   a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
-  a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r \bar "||" 
+  a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
+  a,,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' dis e dis e8 \bar "||"
 
   % F
   \mark F
-  a,,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' dis e dis e8 |
   a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 |
   a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 |  a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' dis e dis e8 |
   a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 |
@@ -195,11 +195,11 @@ bassTuba = \relative c {
   a8. a8. e8 a8. a8. g8 | f8. f8. c8 f8. f8. g8 | c8. c8. g8  c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' |
   a,8. a8. e8 a8. a8 a16 gis16 gis | f8. f8. c'8 f8. f8 f16 e d | c8. c8. g8  c,8. c8. f8 | g8. g8. d'8 g,4 gis |
   a8. a8. e8 a8. gis8. g8 | f8. f8. c8 f4 e8 d8 | c8. e8. g8 c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' |
-  a,8. a8. e8 a8. gis8. g8 | f8. f8. c8 f4 e8 d8 | c8. e8. g8 c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' \bar "||"
+  a,8. a8. e8 a8. gis8. g8 | f8. f8. c8 f4 e8 d8 | c8. e8. g8 c8. c8. c8 | g8. g8. d8  g8 g' gis, gis' |
+  a,,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4 r4 \bar "||"
 
   % F
   \mark F
-  a,,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4 r4 |
   a8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
   a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
   a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
