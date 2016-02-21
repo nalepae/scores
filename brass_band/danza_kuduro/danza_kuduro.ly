@@ -47,7 +47,54 @@ trumpetBb = \relative c' {
 
   % C
   \mark C
-  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b | c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g, g4 f \bar "||"
+  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b |
+  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g, g4 f \bar "||"
+
+  % Tenor Sax Solo
+  \mark "Tenor Sax Solo"
+  e1 | g2. (g8) r8 | e1 | d2. (d8) r8 |
+  e1 | g2. (g8) r8 | e1 | d2. (d8) r8 \bar "||"
+
+  % D
+  \mark D
+  r4. e8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 e e e e d (| d4) r8 b b c \grace cis (d) c8 (|
+  c4) r8 e,8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 g c d e f | g4 r8 g,8 d'4 b \bar "||"
+
+  % E
+  \mark E
+  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b |
+  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b |
+  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b |
+  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g, g4 f (|
+  e1) | R1*3 \bar "||"
+
+  % F
+  \mark F
+  R1*7 | r2 r4 c' |
+  r2 r4 c | r2 r4 c | r2 r4 c | r2 r4 c |
+  r2 r4 c | r2 r4 c | r2 r4 c | r2 r8 d d e \bar "||"
+
+  % G
+  \mark G
+  r8 f f f16 f (f8) e d c | c d e d4 d e8 | f r8 f f16 f (f8) e d c | e8 r d4 (d8) d d e |
+  r8 f f f16 f (f8) e d c | c d e d4 d e8 | \times 2/3 {f4 e f} \times 2/3 {g f g} | a2. r4 |
+  R1*4 \bar "||"
+
+  % H
+  \mark H
+  R1*7 | r2 r4 c, |
+  r2 r4 c | r2 r4 c | r2 r4 c | r2 r4 c |
+  r2 r4 c | r2 r4 c | r2 r4 c | r2 r8 d d e \bar "||"
+
+  % I
+  \mark I
+  r8 f f f16 f (f8) e d c | c d e d4 d e8 | f r8 f f16 f (f8) e d c | e8 r d4 (d8) d d e |
+  r8 f f f16 f (f8) e d c | c d e d4 d e8 | \times 2/3 {f4 e f} \times 2/3 {g f g} | a2. r4 \bar "||"
+
+  % J
+  \mark J
+  a8 r r4 a8. g8. a8 | r2 a8. g8. a8 | r2 a8. g8. f8 (| f1) |
+  a8 r r4 a8. g8. a8 | r2 r8 a8. g8. | a8 r r4 a8. g8. f8 (| f1) (| f1) \bar "|."
 }
 
 clarinet = \relative c'' {
