@@ -121,11 +121,11 @@ tenorSax = \relative c' {
   % G
   \mark G
   c1 | e4. d8 (d2) | c1 | e8 d (d2.) |
-  c1 | e4. d8 (d2) | c2 d | e2 (e8) r r4 \bar "||"
+  c1 | e4. d8 (d2) | c2 d | e2 (e8) r r4 |
+  a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' e e8 e \bar "||"
 
   % H
   \mark H
-  a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' e e8 e |
   a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 r8 g gis |
   a8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 |  a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r r4. |
   a8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' dis e dis e8 |
@@ -208,11 +208,11 @@ bassTuba = \relative c {
   % G
   \mark G
   f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | f8. f8. c8 f8. f8. r8 | a4 g4 (g2) |
-  f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | e2 f g (g8) r r4 \bar "||"
+  f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | d2 e | f (f8) r r4 |
+  a,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4 r4 \bar "||"
 
   % H
   \mark H
-  a,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4. e'8 | a,4. e'8 a,4 r4 |
   a8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
   a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
   a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 | a,8. a8. e'8 a,8. a8. e'8 |
