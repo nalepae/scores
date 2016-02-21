@@ -221,7 +221,7 @@ bassTuba = \relative c {
   % I
   \mark I
   f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | f8. f8. c8 f8. f8. r8 | a4 g4 (g2) |
-  f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | e2 f g (g8) r r4 \bar "||"
+  f8. f8. c8 f8. f8. g8 | c8. c8. c8 g8. g8. g8 | d2 e | f (f8) r r4 \bar "||"
 
   % J
   \mark J
