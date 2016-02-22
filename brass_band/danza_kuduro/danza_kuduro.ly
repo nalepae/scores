@@ -128,8 +128,8 @@ tenorSax = \relative c' {
 
   % A
   \mark A
-  e,1 | g | e | d |
-  e1 | g | e | d \bar "||"
+  e,1 | g2. r4 | e1 | d2. r4 |
+  e1 | g2. r4 | e1 | d2. r4 \bar "||"
 
   % B
   \mark B
@@ -214,8 +214,8 @@ bassTuba = \relative c {
 
   % A
   \mark A
-  a1 | f | c | g' |
-  a,1 | f' | c | g' \bar "||"
+  a1 | f2. r4 | c1 | g'2. r4 |
+  a,1 | f'2. r4 | c1 | g'2. r4 \bar "||"
 
   % B
   \mark B
