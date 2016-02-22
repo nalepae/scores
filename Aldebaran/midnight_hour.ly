@@ -6,7 +6,7 @@
 }
 
 global = {
-  \key e \major
+  \key e \minor
   \time 4/4
 }
 
@@ -28,7 +28,7 @@ tenorSax = \relative c'' {
   r1 | r2 a8 g e8 e8 (| e1) | r | r \bar "||"
 
   b'4 r a8 a4 gis8 (| gis4) r a8 a4 b8 (| b4) a8 fis a4 fis8 e8 | f4 r a8 a4 b8 (|
-  b4) r a8 a4 gis8 (| gis4) r \times 2/3 { a b, b } | e1 | r2 r4 r8 dis (|
+  b4) r a8 a4 gis8 (| gis4) r \times 2/3 { a d, d } | e1 | r2 r4 r8 dis (|
   e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r4 r8 dis8 (|
   e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r4 r8 dis8 (|
   e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r4 r8 dis8 (|
