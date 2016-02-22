@@ -191,7 +191,54 @@ tenorSax = \relative c' {
 
 trombone = \relative c {
   \global
-  % Music follows here.
+  \compressFullBarRests
+  \override MultiMeasureRest.expand-limit = #1
+
+  % Drums intro
+  \mark "Drums intro"
+  R1*4 \bar "||"
+
+  % Tenor sax intro
+  \mark "Tenor sax intro"
+  R1*8 \bar "||"
+
+  % All intro
+  \mark "All intro"
+  g'1 | c2. r4 | g1 | b2. r4 |
+  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+
+  % A
+  \mark A
+  g1 | c2. r4 | g1 | b2. r4 |
+  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+
+  % B
+  \mark B
+  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b16 r8 b16 r8 b16 r b16 r8 b16 r8 b16 r |
+  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b4 r8 b8 f'4 d \bar "||"
+
+  % C
+  \mark C
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 c c4 a \bar "||"
+
+  % Tenor Sax Solo
+  \mark "Tenor Sax Solo"
+  a1 | c2. r4 | g1 | b2. r4 |
+  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+
+  % D
+  \mark D
+  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b16 r8 b16 r8 b16 r b16 r8 b16 r8 b16 r |
+  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b4 r8 b8 f'4 d \bar "||"
+
+  % E
+  \mark E
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 c c4 a |
+  a1 | r | r | r \bar "||"
 }
 
 bassTuba = \relative c {
