@@ -52,8 +52,8 @@ trumpetBb = \relative c' {
 
   % Tenor Sax Solo
   \mark "Tenor Sax Solo"
-  e1 | g2. (g8) r8 | e1 | d2. (d8) r8 |
-  e1 | g2. (g8) r8 | e1 | d2. (d8) r8 \bar "||"
+  e1 | g2. r4 | e1 | d2. r4 |
+  e1 | g2. r4 | e1 | d2. r4 \bar "||"
 
   % D
   \mark D
@@ -167,8 +167,8 @@ tenorSax = \relative c' {
 
   % G
   \mark G
-  c1 | e4. d8 (d2) | c1 | e8 d (d2.) |
-  c1 | e4. d8 (d2) | c2 d | e2 (e8) r r4 |
+  a'1 | c4. b8 (b2) | a1 | c8 b (b2.) |
+  a1 | c4. b8 (b2) | a2 b | c2 (c8) r r4 |
   a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' e e8 e \bar "||"
 
   % H
@@ -239,6 +239,36 @@ trombone = \relative c {
   e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
   e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 c c4 a |
   a1 | r | r | r \bar "||"
+
+  % F
+  \mark F
+  r4 e'8 g16 e (e4) r4 | d8 c e d (d4) r | d8 r d8. d16 r4 d16 d e8 | d c a4 (a) r |
+  r4 e'8 g16 a r4 d,16 d c8 | d8 c e d (d4) r | d8 r d8. d16 r4 d16 d c e (| e2) r |
+  r4 e8 g16 e (e4) r4 | d8 c e d (d4) r | d8 r d8. d16 r4 d16 d e8 | d c a4 (a) r |
+  r4 e'8 g16 a r4 d,16 d c8 | d8 c e d (d4) r | d8 r d8. d16 r4 d16 d c e (| e2) r \bar "||"
+
+  % G
+  \mark G
+  c1 | e4. d8 (d2) | c1 | e8 d (d2.) |
+  c1 | e4. d8 (d2) | c2 d | e2 (e8) r r4 |
+  R1*4 \bar "||"
+
+  % H
+  \mark H
+  r4 e8 g16 e (e4) r4 | d8 c e d (d4) r | d8 r d8. d16 r4 d16 d e8 | d c a4 (a) r |
+  r4 e'8 g16 a r4 d,16 d c8 | d8 c e d (d4) r | d8 r d8. d16 r4 d16 d c e (| e2) r |
+  r4 e8 g16 e (e4) r4 | d8 c e d (d4) r | d8 r d8. d16 r4 d16 d e8 | d c a4 (a) r |
+  r4 e'8 g16 a r4 d,16 d c8 | d8 c e d (d4) r | d8 r d8. d16 r4 d16 d c e (| e2) r \bar "||"
+
+  % I
+  \mark I
+  c1 | e4. d8 (d2) | c1 | e8 d (d2.) |
+  c1 | e4. d8 (d2) | c2 d | e2 (e8) r r4 \bar "||"
+
+  % J
+  \mark J
+  c8 r r4 c8. b8. c8 | r2 c8. b8. c8 | r2 c8. b8. a8 (| a1) |
+  c8 r r4 c8. b8. c8 | r2 r8 c8. b8. | c8 r r4 c8. b8. a8 (| a1) (| a1) \bar "|."
 }
 
 bassTuba = \relative c {
