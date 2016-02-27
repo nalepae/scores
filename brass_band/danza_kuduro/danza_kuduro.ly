@@ -557,7 +557,7 @@ bassTubaPart = \new Staff \with {
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 100 4)
+      tempoWholesPerMinute = #(ly:make-moment 140 4)
     }
   }
 }
