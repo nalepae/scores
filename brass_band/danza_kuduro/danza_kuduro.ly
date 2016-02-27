@@ -26,8 +26,8 @@ trumpetBb = \relative c' {
   \mark "Drums intro"
   R1*4 \bar "||"
 
-  % Tenor sax intro
-  \mark "Tenor sax intro"
+  % Alto sax intro
+  \mark "Alto sax intro"
   R1*8 \bar "||"
 
   % All intro
@@ -50,8 +50,8 @@ trumpetBb = \relative c' {
   c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b |
   c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g, g4 f \bar "||"
 
-  % Tenor Sax Solo
-  \mark "Tenor Sax Solo"
+  % Alto Sax Solo
+  \mark "Alto Sax Solo"
   e1 | g2. r4 | e1 | d2. r4 |
   e1 | g2. r4 | e1 | d2. r4 \bar "||"
 
@@ -65,8 +65,8 @@ trumpetBb = \relative c' {
   c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b |
   c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b |
   c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g,8 d'4 b |
-  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g, g4 f (|
-  e1) | R1*3 \bar "||"
+  c4 r8 g8 d'4 b | c r8 g c4 d | e r8 g, g4 e' | d r8 g, g4 f |
+  e1 | R1*3 \bar "||"
 
   % F
   \mark F
@@ -102,12 +102,7 @@ clarinet = \relative c'' {
   % Music follows here.
 }
 
-altoSax = \relative c'' {
-  \global
-  % Music follows here.
-}
-
-tenorSax = \relative c' {
+altoSax = \relative c' {
   \global
   \compressFullBarRests
   \override MultiMeasureRest.expand-limit = #1
@@ -116,8 +111,8 @@ tenorSax = \relative c' {
   \mark "Drums intro"
   R1*4 \bar "||"
 
-  % Tenor sax intro
-  \mark "Tenor sax intro"
+  % Alto sax intro
+  \mark "Alto sax intro"
   a16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
   a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r \bar "||"
 
@@ -128,27 +123,27 @@ tenorSax = \relative c' {
 
   % A
   \mark A
-  e,1 | g2. r4 | e1 | d2. r4 |
+  e1 | g2. r4 | e1 | d2. r4 |
   e1 | g2. r4 | e1 | d2. r4 \bar "||"
 
   % B
   \mark B
-  g16 r8 g16 r8 e16 r g16 r8 g16 r8 e16 r | g16 r8 g16 r8 e16 r g16 r8 g16 r8 f16 r | e16 r8 e16 r8 c16 r e16 r8 e16 r8 e16 r | f16 r8 f16 r8 d16 r f16 r8 f16 r8 f16 r |
-  g16 r8 g16 r8 e16 r g16 r8 g16 r8 e16 r | g16 r8 g16 r8 e16 r g16 r8 g16 r8 f16 r | e16 r8 e16 r8 c16 r e16 r8 e16 r8 e16 r | f4 r r2 \bar "||"
+  e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 f16 r | e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | d16 r8 d16 r8 d16 r d16 r8 d16 r8 d16 r |
+  e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 f16 r | e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | d4 r r2 \bar "||"
 
   % C
   \mark C
   a16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
   a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r \bar "||" 
 
-  % Tenor Sax Solo
-  \mark "Tenor Sax Solo"
+  % Alto Sax Solo
+  \mark "Alto Sax Solo"
   R1*8 \bar "||"
 
   % D
   \mark D
-  g,16 r8 g16 r8 e16 r g16 r8 g16 r8 e16 r | g16 r8 g16 r8 e16 r g16 r8 g16 r8 f16 r | e16 r8 e16 r8 c16 r e16 r8 e16 r8 e16 r | f16 r8 f16 r8 d16 r f16 r8 f16 r8 f16 r |
-  g16 r8 g16 r8 e16 r g16 r8 g16 r8 e16 r | g16 r8 g16 r8 e16 r g16 r8 g16 r8 f16 r | e16 r8 e16 r8 c16 r e16 r8 e16 r8 e16 r | f4 r r2 \bar "||"
+  e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 f16 r | e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | d16 r8 d16 r8 d16 r d16 r8 d16 r8 d16 r |
+  e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 f16 r | e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | d4 r r2 \bar "||"
 
   % E
   \mark E
@@ -156,7 +151,91 @@ tenorSax = \relative c' {
   a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
   a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
   a,16 c8 e c16 e8 c c b c | f,16 a8 c a16 c8 f, f e r | e16 g8 c g16 c8 e e d e | g,16 b8 d b16 d8 d d e r |
-  a,,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' dis e dis e8 \bar "||"
+  R1*4 \bar "||"
+
+  % F
+  \mark F
+  R1*7 | r2 r4 a |
+  r2 r4 a | r2 r4 a | r2 r4 a | r2 r4 a |
+  r2 r4 a | r2 r4 a | r2 r4 a | r1 \bar "||"
+
+  % G
+  \mark G
+  a,1 | c4. b8 (b2) | a1 | c8 b (b2.) |
+  a1 | c4. b8 (b2) | a2 b | c2 (c8) e8 d c16 d (|
+  d8) c8 (c2.) (| c1) | R1*2 \bar "||"
+
+  % H
+  \mark H
+  R1*7 | r2 r4 a' |
+  r2 r4 a | r2 r4 a | r2 r4 a | r2 r4 a |
+  r2 r4 a | r2 r4 a | r2 r4 a | r1 \bar "||"
+
+  % I
+  \mark I
+  a,1 | c4. b8 (b2) | a1 | c8 b (b2.) |
+  a1 | c4. b8 (b2) | a2 b | c2 (c8) r r4  \bar "||"
+
+  % J
+  \mark J
+  a8 r r4 a8. g8. a8 | r2 a8. g8. a8 | r2 a8. g8. f8 (| f1) |
+  a8 r r4 a8. g8. a8 | r2 r8 a8. g8. | a8 r r4 a8. g8. f8 (| f1) (| f1) \bar "|."
+}
+
+tenorSax = \relative c' {
+  \global
+  \compressFullBarRests
+  \override MultiMeasureRest.expand-limit = #1
+
+  \global
+  \compressFullBarRests
+  \override MultiMeasureRest.expand-limit = #1
+
+  % Drums intro
+  \mark "Drums intro"
+  R1*4 \bar "||"
+
+  % Alto sax intro
+  \mark "Alto sax intro"
+  R1*8 \bar "||"
+
+  % All intro
+  \mark "All intro"
+  g1 | c2. r4 | g1 | b2. r4 |
+  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+
+  % A
+  \mark A
+  g1 | c2. r4 | g1 | b2. r4 |
+  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+
+  % B
+  \mark B
+  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b16 r8 b16 r8 b16 r b16 r8 b16 r8 b16 r |
+  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b4 r8 b8 f'4 d \bar "||"
+
+  % C
+  \mark C
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 c c4 a \bar "||"
+
+  % Alto Sax Solo
+  \mark "Alto Sax Solo"
+  a1 | c2. r4 | g1 | b2. r4 |
+  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+
+  % D
+  \mark D
+  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b16 r8 b16 r8 b16 r b16 r8 b16 r8 b16 r |
+  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b4 r8 b8 f'4 d \bar "||"
+
+  % E
+  \mark E
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
+  e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 c c4 a |
+  a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' dis e dis e8 \bar "||"
 
   % F
   \mark F
@@ -167,9 +246,9 @@ tenorSax = \relative c' {
 
   % G
   \mark G
-  a'1 | c4. b8 (b2) | a1 | c8 b (b2.) |
-  a1 | c4. b8 (b2) | a2 b | c2 (c8) r r4 |
-  a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,16 r e' e e8 e \bar "||"
+  c'1 | e4. d8 (d2) | c1 | e8 d (d2.) |
+  c1 | e4. d8 (d2) | c2 d | e2 (e8) r r4 |
+  a,,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 | a,8 a'16 a r a, a' a a,8 a'16 a r a, ais'8 \bar "||"
 
   % H
   \mark H
@@ -180,7 +259,7 @@ tenorSax = \relative c' {
 
   % I
   \mark I
-  c1 | e4. d8 (d2) | c1 | e8 d (d2.) |
+  c'1 | e4. d8 (d2) | c1 | e8 d (d2.) |
   c1 | e4. d8 (d2) | c2 d | e2 (e8) r r4 \bar "||"
 
   % J
@@ -198,8 +277,8 @@ trombone = \relative c {
   \mark "Drums intro"
   R1*4 \bar "||"
 
-  % Tenor sax intro
-  \mark "Tenor sax intro"
+  % Alto sax intro
+  \mark "Alto sax intro"
   R1*8 \bar "||"
 
   % All intro
@@ -222,8 +301,8 @@ trombone = \relative c {
   e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 b, f'4 d |
   e4 r8 b f'4 d | e r8 c e4 f | g r8 e e4 g | f r8 c c4 a \bar "||"
 
-  % Tenor Sax Solo
-  \mark "Tenor Sax Solo"
+  % Alto Sax Solo
+  \mark "Alto Sax Solo"
   a1 | c2. r4 | g1 | b2. r4 |
   g1 | c2. r4 | g1 | b2. r4 \bar "||"
 
@@ -280,8 +359,8 @@ bassTuba = \relative c {
   \mark "Drums intro"
   R1*4 \bar "||"
 
-  % Tenor sax intro
-  \mark "Tenor sax intro"
+  % Alto sax intro
+  \mark "Alto sax intro"
   R1*8 \bar "||"
 
   % All intro
@@ -304,8 +383,8 @@ bassTuba = \relative c {
   a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r f d d | c16 r8 c16 r8 g16 r c r8 c16 r8 f16 r | g16 r8 g16 r8 d g g' gis,4 |
   a16 r8 a16 r8 e16 r a r8 a16 r a g g  | f16 r8 f16 r8 c16 r f r8 f16 r8 f16 d | c16 r8 c16 r8 g'16 r c, r8 c16 r8 f16 r | g16 r8 g16 r8 d g4 gis \bar "||"
 
-  % Tenor Sax Solo
-  \mark "Tenor Sax Solo"
+  % Alto Sax Solo
+  \mark "Alto Sax Solo"
   a1 | f | c | g'2 g,8 g' gis, gis' |
   a,1 | f' | c | g'2 g,8 g' gis, gis' |
 
@@ -372,7 +451,7 @@ clarinetPart = \new Staff \with {
 altoSaxPart = \new Staff \with {
   instrumentName = "Alto Sax"
   midiInstrument = "alto sax"
-} \altoSax
+} {\clef "treble_8" \altoSax }
 
 tenorSaxPart = \new Staff \with {
   instrumentName = "Tenor Sax"
