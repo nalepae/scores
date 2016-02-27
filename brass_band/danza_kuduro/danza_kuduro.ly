@@ -3,7 +3,7 @@
 \header {
   title = "Danza Kuduro"
   subtitle = "Eye Of The Tiger"
-  composer = "Lucky Chops for the POBB"
+  composer = "From Lucky Chops to POBB by Manu - v1.0"
   arranger = "git@github.com:nalepae/scores.git"
 }
 
