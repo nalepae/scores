@@ -33,7 +33,7 @@ trumpetBb = \relative c' {
   % A
   \mark A
   r4. e8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 e e e e d (| d4) r8 b b c \grace cis (d) c8 (|
-  c4) r8 e,8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 c c c d e (| e4) r8 b b c \grace cis (d) c8 (|
+  c4) r8 e,8 a c \grace cis (d) c (| c4) r8 e, a c \grace cis (d) c (| c4) r8 c c c d e (| e4) r8 b b c \grace cis (d) c8 ( \bar "||"
 
   % B
   \mark B
@@ -456,7 +456,7 @@ bassTuba = \relative c {
   % Alto Sax Solo
   \mark "Alto Sax Solo"
   a1 | f | c | g'2 g,8 g' gis, gis' |
-  a,1 | f' | c | g'2 g,8 g' gis, gis' |
+  a,1 | f' | c | g'2 g,8 g' gis, gis' \bar "||"
 
   % D
   \mark D
