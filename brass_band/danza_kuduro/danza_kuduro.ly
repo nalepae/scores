@@ -12,11 +12,6 @@ global = {
   \time 4/4
 }
 
-flute = \relative c'' {
-  \global
-  % Music follows here.
-}
-
 trumpetBb = \relative c' {
   \global
   \compressFullBarRests
@@ -508,11 +503,6 @@ bassTuba = \relative c {
 
 }
 
-flutePart = \new Staff \with {
-  instrumentName = "Flute"
-  midiInstrument = "flute"
-} \flute
-
 trumpetBbPart = \new Staff \with {
   instrumentName = "Trumpet in Bb"
   midiInstrument = "trumpet"
@@ -545,7 +535,6 @@ bassTubaPart = \new Staff \with {
 
 \score {
   <<
-    \flutePart
     \trumpetBbPart
     \clarinetPart
     \altoSaxPart
