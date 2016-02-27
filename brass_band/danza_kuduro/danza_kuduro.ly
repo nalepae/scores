@@ -201,18 +201,18 @@ tenorSax = \relative c' {
 
   % All intro
   \mark "All intro"
-  g1 | c2. r4 | g1 | b2. r4 |
-  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+  c1 | a2. r4 | e1 | f2. r4 |
+  c'1 | a2. r4 | e1 | f2. r4 \bar "||"
 
   % A
   \mark A
-  g1 | c2. r4 | g1 | b2. r4 |
-  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+  c'1 | a2. r4 | e1 | f2. r4 |
+  c'1 | a2. r4 | e1 | f2. r4 \bar "||"
 
   % B
   \mark B
-  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b16 r8 b16 r8 b16 r b16 r8 b16 r8 b16 r |
-  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b4 r8 b8 f'4 d \bar "||"
+  c'16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | a16 r8 a16 r8 a16 r a16 r8 a16 r8 a16 r | e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | f16 r8 f16 r8 f16 r f16 r8 f16 r8 f16 r |
+  c'16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | a16 r8 a16 r8 a16 r a16 r8 a16 r8 a16 r | e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | f4 r8 f8 f'4 d \bar "||"
 
   % C
   \mark C
@@ -221,13 +221,13 @@ tenorSax = \relative c' {
 
   % Alto Sax Solo
   \mark "Alto Sax Solo"
-  a1 | c2. r4 | g1 | b2. r4 |
-  g1 | c2. r4 | g1 | b2. r4 \bar "||"
+  c1 | a2. r4 | e1 | f2. r4 |
+  c'1 | a2. r4 | e1 | f2. r4 \bar "||"
 
   % D
   \mark D
-  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b16 r8 b16 r8 b16 r b16 r8 b16 r8 b16 r |
-  g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | c16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | g16 r8 g16 r8 g16 r g16 r8 g16 r8 g16 r | b4 r8 b8 f'4 d \bar "||"
+  c'16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | a16 r8 a16 r8 a16 r a16 r8 a16 r8 a16 r | e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | f16 r8 f16 r8 f16 r f16 r8 f16 r8 f16 r |
+  c'16 r8 c16 r8 c16 r c16 r8 c16 r8 c16 r | a16 r8 a16 r8 a16 r a16 r8 a16 r8 a16 r | e16 r8 e16 r8 e16 r e16 r8 e16 r8 e16 r | f4 r8 f8 f'4 d \bar "||"
 
   % E
   \mark E
