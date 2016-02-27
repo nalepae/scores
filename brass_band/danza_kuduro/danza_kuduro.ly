@@ -1,12 +1,5 @@
 \version "2.18.2"
 
-\header {
-  title = "Danza Kuduro"
-  subtitle = "Eye Of The Tiger"
-  composer = "From Lucky Chops to POBB by Manu - v1.0"
-  arranger = "git@github.com:nalepae/scores.git"
-}
-
 global = {
   \key a \minor
   \time 4/4
@@ -533,20 +526,103 @@ bassTubaPart = \new Staff \with {
   midiInstrument = "tuba"
 } { \clef "bass_8" \bassTuba }
 
-\score {
-  <<
-    \trumpetBbPart
-    \clarinetPart
-    \altoSaxPart
-    \tenorSaxPart
-    \trombonePart
-    \bassTubaPart
-  >>
-  \layout { }
-  \midi {
-    \context {
-      \Score
-      tempoWholesPerMinute = #(ly:make-moment 140 4)
+\book {
+  \paper {
+    print-all-headers = ##t
+  }
+
+  \score {
+    \header {
+      title = "Danza Kuduro"
+      subtitle = "Eye Of The Tiger"
+      composer = "From Lucky Chops to POBB by Manu - v1.0"
+      arranger = "git@github.com:nalepae/scores.git"
     }
+
+    <<
+      \trumpetBbPart
+      \clarinetPart
+      \altoSaxPart
+      \tenorSaxPart
+      \trombonePart
+      \bassTubaPart
+    >>
+    \layout { }
+    \midi {
+      \context {
+        \Score
+        tempoWholesPerMinute = #(ly:make-moment 140 4)
+      }
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Danza Kuduro"
+      subtitle = "Eye Of The Tiger"
+      composer = "From Lucky Chops to POBB by Manu - v1.0"
+      arranger = "git@github.com:nalepae/scores.git"
+    }
+    <<
+      \transpose c d \trumpetBbPart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Danza Kuduro"
+      subtitle = "Eye Of The Tiger"
+      composer = "From Lucky Chops to POBB by Manu - v1.0"
+      arranger = "git@github.com:nalepae/scores.git"
+    }
+    <<
+      \transpose c a, \altoSaxPart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Danza Kuduro"
+      subtitle = "Eye Of The Tiger"
+      composer = "From Lucky Chops to POBB by Manu - v1.0"
+      arranger = "git@github.com:nalepae/scores.git"
+    }
+    <<
+      \transpose c d \tenorSaxPart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Danza Kuduro"
+      subtitle = "Eye Of The Tiger"
+      composer = "From Lucky Chops to POBB by Manu - v1.0"
+      arranger = "git@github.com:nalepae/scores.git"
+    }
+    <<
+      \trombonePart
+    >>
+  }
+
+  \pageBreak
+
+  \score {
+    \header {
+      title = "Danza Kuduro"
+      subtitle = "Eye Of The Tiger"
+      composer = "From Lucky Chops to POBB by Manu - v1.0"
+      arranger = "git@github.com:nalepae/scores.git"
+    }
+    <<
+      \transpose c d \bassTubaPart
+    >>
   }
 }
