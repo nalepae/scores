@@ -2,7 +2,7 @@
 
 \header {
   title = "Midnight Hour"
-  arranger = "git@github.com:nalepae/scores.git - TBF"
+  arranger = "git@github.com:nalepae/scores.git"
 }
 
 global = {
@@ -30,9 +30,9 @@ tenorSax = \relative c'' {
   b'4 r a8 a4 gis8 (| gis4) r a8 a4 b8 (| b4) a8 fis a4 fis8 e8 | f4 r a8 a4 b8 (|
   b4) r a8 a4 gis8 (| gis4) r \times 2/3 { a d, d } | e1 | r2 r4 r8 dis (|
   e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r4 r8 dis8 (|
-  e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r4 r8 dis8 (|
-  e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r4 r8 dis8 (|
-  e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r2 |
+  e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8
+  (| e4) r4 r8 a16 a a a g g | e4 r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r4 r8 dis8 (|
+  e4) r4 r4 r8 dis8 (|e4) r4 r4 r8 dis8 (| e4) r4 r2 |
   e1 \bar "|."
 }
 
